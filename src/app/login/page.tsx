@@ -37,11 +37,10 @@ function AuthField({
       <label htmlFor={id} className="text-xs font-semibold text-[#4a5568] uppercase tracking-wide">
         {label}
       </label>
-      <div className="relative flex items-center min-w-0">
-        <Icon
-          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#718096] pointer-events-none z-[1] shrink-0"
-          aria-hidden
-        />
+      <div className="input-icon-group min-w-0">
+        <span className="input-icon-group__icon" aria-hidden>
+          <Icon className="h-4 w-4" />
+        </span>
         <input
           id={id}
           type={type}
@@ -51,7 +50,7 @@ function AuthField({
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
-          className="input-base w-full min-w-0 pl-10 pr-4 py-2.5 sm:py-3 text-base sm:text-sm leading-normal"
+          className="input-icon-group__field"
         />
       </div>
     </div>
@@ -68,6 +67,7 @@ function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [acceptedTerms, setAcceptedTerms] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
 
   const authError = searchParams.get('error')
@@ -103,6 +103,11 @@ function LoginForm() {
 
     if (password !== confirmPassword) {
       toast.error('Passwords do not match')
+      return
+    }
+
+    if (!acceptedTerms) {
+      toast.error('Please accept the Terms of Service and Privacy Policy')
       return
     }
 
@@ -327,9 +332,38 @@ function LoginForm() {
                     autoComplete="new-password"
                     minLength={8}
                   />
+                  <label className="flex items-start gap-2.5 cursor-pointer min-w-0 pt-1">
+                    <input
+                      type="checkbox"
+                      checked={acceptedTerms}
+                      onChange={(e) => setAcceptedTerms(e.target.checked)}
+                      className="mt-0.5 h-4 w-4 shrink-0 rounded border-[#e8ddd0] text-aqua-600 focus:ring-aqua-400"
+                    />
+                    <span className="text-[11px] leading-relaxed text-[#718096] sm:text-xs">
+                      I agree to the{' '}
+                      <Link
+                        href="/terms"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-aqua-600 hover:underline font-medium"
+                      >
+                        Terms of Service
+                      </Link>{' '}
+                      and{' '}
+                      <Link
+                        href="/privacy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-aqua-600 hover:underline font-medium"
+                      >
+                        Privacy Policy
+                      </Link>
+                      .
+                    </span>
+                  </label>
                   <button
                     type="submit"
-                    disabled={isLoading}
+                    disabled={isLoading || !acceptedTerms}
                     className="btn-primary mt-1 w-full justify-center py-3 disabled:opacity-60 sm:mt-2"
                   >
                     {isLoading ? (
@@ -348,9 +382,21 @@ function LoginForm() {
             <div className="divider my-4 sm:my-5" />
 
             <p className="text-center text-[11px] leading-relaxed text-[#718096] sm:text-xs">
-              By continuing, you agree to our{' '}
-              <span className="cursor-pointer text-aqua-600 hover:underline">Terms</span> and{' '}
-              <span className="cursor-pointer text-aqua-600 hover:underline">Privacy Policy</span>.
+              {mode === 'signup' ? (
+                <>Review our policies before creating an account.</>
+              ) : (
+                <>
+                  By signing in, you agree to our{' '}
+                  <Link href="/terms" className="text-aqua-600 hover:underline font-medium">
+                    Terms of Service
+                  </Link>{' '}
+                  and{' '}
+                  <Link href="/privacy" className="text-aqua-600 hover:underline font-medium">
+                    Privacy Policy
+                  </Link>
+                  .
+                </>
+              )}
             </p>
           </div>
 

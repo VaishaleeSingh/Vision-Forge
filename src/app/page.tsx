@@ -252,7 +252,16 @@ export default function LandingPage() {
           </div>
           <span className="font-semibold text-[#1a2332]">VisionForge</span>
         </div>
-        <p>Built with ❤️ using Next.js 15, Gemini AI & MongoDB Atlas</p>
+        <p className="mb-2">Built with ❤️ using Next.js 15, Gemini AI & MongoDB Atlas</p>
+        <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs">
+          <Link href="/terms" className="text-aqua-600 hover:underline">
+            Terms of Service
+          </Link>
+          <span className="text-[#cbd5e0]">·</span>
+          <Link href="/privacy" className="text-aqua-600 hover:underline">
+            Privacy Policy
+          </Link>
+        </p>
       </footer>
     </div>
   )

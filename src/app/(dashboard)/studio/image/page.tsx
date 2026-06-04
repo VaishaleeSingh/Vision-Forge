@@ -215,7 +215,10 @@ export default function ImageStudioPage() {
 
       const data = await res.json()
 
-      if (!res.ok) throw new Error(data.error || 'Generation failed')
+      if (!res.ok) {
+        const hint = data.hint ? ` ${data.hint}` : ''
+        throw new Error((data.error || 'Generation failed') + hint)
+      }
 
       setGeneratedImage({ url: data.imageUrl, model: data.model })
     } catch (err) {
@@ -658,7 +661,9 @@ export default function ImageStudioPage() {
 
                     <div className="divider" />
 
-                    <RichTextOutput content={analysisResult} format="markdown" />
+                    <div className="min-w-0 w-full max-w-full overflow-x-auto">
+                      <RichTextOutput content={analysisResult} format="markdown" />
+                    </div>
 
                     <button
                       onClick={() => {

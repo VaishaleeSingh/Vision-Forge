@@ -234,6 +234,54 @@ h4, h5, h6, p, span, a, button, input, textarea, select {
   box-shadow: 0 0 0 3px rgba(11, 191, 191, 0.12);
 }
 
+/* Auth / search inputs with leading icon (flex — no overlap) */
+.input-icon-group {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1.5px solid var(--border-default);
+  background: white;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.input-icon-group:focus-within {
+  border-color: var(--aqua-400);
+  box-shadow: 0 0 0 3px rgba(11, 191, 191, 0.12);
+}
+.input-icon-group__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.75rem;
+  color: var(--text-muted);
+  background: var(--beige-50);
+  border-right: 1px solid var(--border-default);
+}
+.input-icon-group__field {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+  background: transparent;
+}
+@media (min-width: 640px) {
+  .input-icon-group__field {
+    font-size: 14px;
+  }
+}
+.input-icon-group__field::placeholder {
+  color: var(--text-muted);
+}
+
 /* Tiptap rich text editor */
 .rich-text-editor .ProseMirror {
   outline: none;
@@ -256,6 +304,25 @@ h4, h5, h6, p, span, a, button, input, textarea, select {
 }
 .rich-text-link:hover {
   color: var(--aqua-700);
+}
+
+/* Rich text / markdown output — responsive at all breakpoints */
+.rich-text-output {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.rich-text-output > :first-child {
+  margin-top: 0;
+}
+.rich-text-output > :last-child {
+  margin-bottom: 0;
+}
+.rich-text-output pre,
+.rich-text-output code {
+  max-width: 100%;
 }
 
 .stat-card {

@@ -1,9 +1,14 @@
 import { NextRequest } from 'next/server'
 import { auth } from '@/lib/auth'
 import connectDB from '@/lib/mongodb'
-import { geminiFlash } from '@/lib/ai'
+import { completeGroqChat, geminiFlash, GROQ_CHAT_MODELS } from '@/lib/ai'
 import AgentRun from '@/models/AgentRun'
 import { getModelTrainingSteps } from '@/features/agents/server/workflows'
+import {
+  appendPipelineStep,
+  capPromptSize,
+  stripDatasetProfileFromTask,
+} from '@/features/agents/server/pipeline-context'
 import { estimateTokens } from '@/lib/utils'
 
 export const runtime = 'nodejs'
@@ -20,6 +25,10 @@ function encodeSSE(data: object): string {
   return `data: ${JSON.stringify(data)}\n\n`
 }
 
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms))
+}
+
 async function generateWithGemini(prompt: string): Promise<string> {
   const model = geminiFlash()
   const result = await model.generateContent(prompt)
@@ -27,31 +36,38 @@ async function generateWithGemini(prompt: string): Promise<string> {
 }
 
 async function generateWithGroq(prompt: string, maxTokens = 2048): Promise<string> {
-  const { default: Groq } = await import('groq-sdk')
-  const groq = new Groq({ apiKey: process.env.GROQ_API_KEY || '' })
-  const completion = await groq.chat.completions.create({
-    model: 'llama-3.1-8b-instant',
-    messages: [{ role: 'user', content: prompt }],
-    max_tokens: maxTokens,
-  })
-  return completion.choices[0]?.message?.content || ''
+  return completeGroqChat([{ role: 'user', content: prompt }], { max_tokens: maxTokens })
 }
 
 async function callAI(prompt: string, model: string, maxTokens = 2048): Promise<string> {
+  const capped = capPromptSize(prompt)
+
   if (model === 'groq-llama') {
-    return generateWithGroq(prompt, maxTokens)
+    return generateWithGroq(capped, maxTokens)
   }
   try {
-    return await generateWithGemini(prompt)
+    return await generateWithGemini(capped)
   } catch (error: unknown) {
     const errObj = error as { message?: string; status?: number }
     const message = errObj?.message ?? ''
     if (message.includes('429') || errObj?.status === 429 || message.includes('quota')) {
       console.warn('[Agent] Gemini rate limited (429), auto-falling back to Groq...')
-      return generateWithGroq(prompt, maxTokens)
+      return generateWithGroq(capped, maxTokens)
     }
     throw error
   }
+}
+
+function friendlyGroqError(err: unknown): string {
+  const raw = err instanceof Error ? err.message : String(err)
+  if (raw.includes('rate_limit') || raw.includes('429')) {
+    return (
+      'Groq rate limit reached (too many tokens per minute). ' +
+      'Wait a minute and run again, or switch to Gemini 2.0 Flash. ' +
+      'Tip: use a shorter goal text with CSV uploads.'
+    )
+  }
+  return raw
 }
 
 // ─── Research Agent Steps ──────────────────────────────────────────────────────
@@ -261,6 +277,9 @@ export async function POST(req: NextRequest) {
   }))
 
   let totalTokens = 0
+  const selectedModel = model || 'gemini-flash'
+  const usePipelineContext = agentType === 'model-training'
+  const usesGroq = selectedModel === 'groq-llama'
 
   const stream = new ReadableStream({
     async start(controller) {
@@ -271,7 +290,6 @@ export async function POST(req: NextRequest) {
       try {
         let previousContent = ''
         let pipelineContext = ''
-        const usePipelineContext = agentType === 'model-training'
 
         for (let i = 0; i < steps.length; i++) {
           const stepConfig = steps[i]
@@ -286,23 +304,31 @@ export async function POST(req: NextRequest) {
             totalSteps: steps.length,
           })
 
-          // Small delay for UX
           await new Promise(r => setTimeout(r, 300))
 
+          // Space Groq requests to stay under TPM (esp. after large CSV step 1)
+          if (usePipelineContext && (usesGroq || i > 0)) {
+            await sleep(usesGroq ? 2_000 : 800)
+          }
+
           try {
+            const taskForStep =
+              usePipelineContext && i > 0 ? stripDatasetProfileFromTask(task) : task
             const contextForPrompt = usePipelineContext ? pipelineContext : previousContent
-            const prompt = stepConfig.prompt(task, contextForPrompt)
-            const tokenBudget = usePipelineContext ? 4096 : 2048
-            const content = await callAI(prompt, model || 'gemini-flash', tokenBudget)
+            const prompt = stepConfig.prompt(taskForStep, contextForPrompt)
+            const tokenBudget = usePipelineContext ? 2048 : 2048
+            const content = await callAI(prompt, selectedModel, tokenBudget)
             totalTokens += estimateTokens(content)
 
             stepResults[i].status = 'done'
             stepResults[i].content = content
             previousContent = content
             if (usePipelineContext) {
-              pipelineContext = pipelineContext
-                ? `${pipelineContext}\n\n---\n\n## ${stepConfig.name}\n${content}`
-                : `## ${stepConfig.name}\n${content}`
+              pipelineContext = appendPipelineStep(
+                pipelineContext,
+                stepConfig.name,
+                content,
+              )
             }
 
             enqueue({
@@ -315,7 +341,7 @@ export async function POST(req: NextRequest) {
             })
           } catch (err) {
             stepResults[i].status = 'error'
-            stepResults[i].content = `Error: ${err instanceof Error ? err.message : 'Unknown error'}`
+            stepResults[i].content = `Error: ${friendlyGroqError(err)}`
 
             enqueue({
               type: 'step_update',
@@ -330,14 +356,13 @@ export async function POST(req: NextRequest) {
 
         const finalOutput = previousContent
 
-        // Save to MongoDB
         try {
           await connectDB()
           await AgentRun.create({
             userId: session.user!.id,
             agentType: agentType || 'research',
             task,
-            model: model || 'gemini-2.0-flash',
+            model: selectedModel === 'groq-llama' ? GROQ_CHAT_MODELS[0] : 'gemini-2.0-flash',
             steps: stepResults,
             finalOutput,
             tokensUsed: totalTokens,

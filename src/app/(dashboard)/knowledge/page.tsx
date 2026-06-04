@@ -20,6 +20,7 @@ import {
   ChevronRight,
   File,
 } from 'lucide-react'
+import { toast } from 'sonner'
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -31,6 +32,7 @@ interface KnowledgeDocument {
   mimeType: string
   status: 'uploading' | 'processing' | 'ready' | 'error'
   chunkCount: number
+  embeddingProvider?: string
   errorMessage?: string
   createdAt: string
 }
@@ -175,15 +177,38 @@ export default function KnowledgePage() {
 
       if (!res.ok) {
         const err = await res.json()
-        throw new Error(err.error || 'Upload failed')
+        const hint = err.hint ? ` ${err.hint}` : ''
+        throw new Error((err.error || 'Upload failed') + hint)
       }
 
+      const data = await res.json()
+      const uploaded = pendingFile
       setUploadProgress(100)
       setPendingFile(null)
       await fetchDocuments()
-    } catch (err: any) {
+
+      if (data.documentId && uploaded) {
+        setSelectedDoc({
+          _id: data.documentId,
+          name: data.fileName ?? uploaded.file.name,
+          originalName: uploaded.file.name,
+          size: uploaded.file.size,
+          mimeType: uploaded.file.type,
+          status: 'ready',
+          chunkCount: data.chunkCount ?? 0,
+          embeddingProvider: data.embeddingProvider,
+          createdAt: new Date().toISOString(),
+        })
+        setMessages([])
+        toast.success(
+          `Document ready — ${data.chunkCount} sections indexed. Ask questions about this file.`,
+        )
+      }
+    } catch (err: unknown) {
       console.error('Upload error:', err)
-      setUploadError(err.message || 'An error occurred during upload')
+      const msg = err instanceof Error ? err.message : 'An error occurred during upload'
+      setUploadError(msg)
+      toast.error(msg)
     } finally {
       setIsUploading(false)
       setUploadProgress(0)
@@ -248,47 +273,58 @@ export default function KnowledgePage() {
         }),
       })
 
-      if (!res.ok) throw new Error('Chat request failed')
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}))
+        throw new Error(err.error || 'Chat request failed')
+      }
       if (!res.body) throw new Error('No response body')
 
       const reader = res.body.getReader()
       const decoder = new TextDecoder()
+      let buffer = ''
       let fullText = ''
       let sources: SourceCitation[] = []
-      let firstLine = true
+      let metaParsed = false
 
       while (true) {
         const { done, value } = await reader.read()
         if (done) break
 
-        const chunk = decoder.decode(value, { stream: true })
-        const lines = chunk.split('\n')
+        buffer += decoder.decode(value, { stream: true })
 
-        for (const line of lines) {
-          if (!line.trim()) continue
-
-          // First line is JSON metadata with sources
-          if (firstLine && line.startsWith('{')) {
-            try {
-              const meta = JSON.parse(line)
-              sources = meta.sources || []
-              firstLine = false
-              continue
-            } catch {
-              // not JSON, treat as text
+        if (!metaParsed) {
+          const newlineIdx = buffer.indexOf('\n')
+          if (newlineIdx !== -1) {
+            const metaLine = buffer.slice(0, newlineIdx).trim()
+            buffer = buffer.slice(newlineIdx + 1)
+            if (metaLine.startsWith('{')) {
+              try {
+                const meta = JSON.parse(metaLine)
+                sources = meta.sources || []
+              } catch {
+                buffer = metaLine + '\n' + buffer
+              }
+            } else if (metaLine) {
+              buffer = metaLine + '\n' + buffer
             }
+            metaParsed = true
           }
-          firstLine = false
-          fullText += line
         }
 
-        setMessages((prev) =>
-          prev.map((m) =>
-            m.id === assistantMsg.id
-              ? { ...m, content: fullText, sources, isStreaming: true }
-              : m
+        if (metaParsed) {
+          fullText = buffer
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantMsg.id
+                ? { ...m, content: fullText, sources, isStreaming: true }
+                : m,
+            ),
           )
-        )
+        }
+      }
+
+      if (metaParsed) {
+        fullText = buffer
       }
 
       // Finalize
@@ -517,8 +553,13 @@ export default function KnowledgePage() {
                             {formatBytes(doc.size)}
                             {doc.status === 'ready' && ` · ${doc.chunkCount} chunks`}
                           </p>
-                          <div className="mt-1.5">
+                          <div className="mt-1.5 space-y-1">
                             <StatusBadge status={doc.status} />
+                            {doc.status === 'error' && doc.errorMessage && (
+                              <p className="text-[10px] text-red-500 line-clamp-2" title={doc.errorMessage}>
+                                {doc.errorMessage}
+                              </p>
+                            )}
                           </div>
                         </div>
 
@@ -633,11 +674,15 @@ export default function KnowledgePage() {
                   transition={{ duration: 0.2 }}
                   className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
                 >
-                  <div className={`max-w-[75%] ${msg.role === 'user' ? 'items-end' : 'items-start'} flex flex-col gap-1.5`}>
+                  <div
+                    className={`w-full max-w-full sm:max-w-[90%] md:max-w-[85%] lg:max-w-[75%] min-w-0 ${
+                      msg.role === 'user' ? 'items-end' : 'items-start'
+                    } flex flex-col gap-1.5`}
+                  >
                     {/* Bubble */}
                     <div
                       className={`
-                        px-4 py-3 rounded-2xl text-sm leading-relaxed
+                        w-full min-w-0 max-w-full px-3 py-2.5 sm:px-4 sm:py-3 rounded-2xl text-xs sm:text-sm leading-relaxed overflow-hidden
                         ${msg.role === 'user'
                           ? 'text-white rounded-br-sm'
                           : 'bg-white border border-[var(--border-default)] text-[var(--text-primary)] rounded-bl-sm shadow-sm'

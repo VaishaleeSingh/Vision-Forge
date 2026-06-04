@@ -55,27 +55,45 @@ export function cosineSimilarity(a: number[], b: number[]): number {
   return normA && normB ? dot / (Math.sqrt(normA) * Math.sqrt(normB)) : 0
 }
 
-/** Split text into overlapping chunks */
+/** Split text into overlapping chunks for RAG (always advances — safe on large PDFs) */
 export function chunkText(
   text: string,
   chunkSize: number = 500,
-  overlap:   number = 50
+  overlap: number = 50,
+  maxChunks: number = 500,
 ): string[] {
+  const normalized = text.replace(/\r\n/g, '\n').trim()
+  if (!normalized) return []
+
+  const safeOverlap = Math.min(overlap, Math.max(0, chunkSize - 1))
   const chunks: string[] = []
   let i = 0
-  while (i < text.length) {
-    // Find a good break point (sentence or word boundary)
-    let end = Math.min(i + chunkSize, text.length)
-    if (end < text.length) {
-      const lastPeriod = text.lastIndexOf('.', end)
-      const lastNewline = text.lastIndexOf('\n', end)
+
+  while (i < normalized.length && chunks.length < maxChunks) {
+    let end = Math.min(i + chunkSize, normalized.length)
+
+    if (end < normalized.length) {
+      const slice = normalized.slice(i, end)
+      const lastPeriod = slice.lastIndexOf('.')
+      const lastNewline = slice.lastIndexOf('\n')
       const breakPoint = Math.max(lastPeriod, lastNewline)
-      if (breakPoint > i + chunkSize * 0.5) end = breakPoint + 1
+      if (breakPoint > slice.length * 0.5) {
+        end = i + breakPoint + 1
+      }
     }
-    chunks.push(text.slice(i, end).trim())
-    i = end - overlap
+
+    const piece = normalized.slice(i, end).trim()
+    if (piece.length > 20) {
+      chunks.push(piece)
+    }
+
+    if (end >= normalized.length) break
+
+    const next = end - safeOverlap
+    i = next > i ? next : end
   }
-  return chunks.filter(c => c.length > 20)
+
+  return chunks
 }
 
 /** Sleep utility */

@@ -4,7 +4,7 @@ export interface IDocumentChunk extends Document {
   documentId: mongoose.Types.ObjectId
   userId: mongoose.Types.ObjectId
   content: string
-  embedding: number[]   // 768-dim from Gemini text-embedding-004
+  embedding: number[]   // gemini (~768) or huggingface-bge (384) — see document.embeddingProvider
   metadata: {
     chunkIndex: number
     pageNumber?: number

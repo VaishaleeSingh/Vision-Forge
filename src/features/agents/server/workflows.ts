@@ -19,14 +19,19 @@ export const MODEL_TRAINING_STEPS: AgentStepConfig[] = [
 
 Your responsibility is to understand the user's ML problem and create an end-to-end training pipeline.
 
-User request:
+User request (includes STATISTICAL DATASET PROFILE when a CSV was uploaded):
 "${task}"
 
+CRITICAL: If a STATISTICAL DATASET PROFILE section is present, you MUST:
+- Quote actual column names, missing %, unique counts, and suggested target from that profile
+- Confirm or override the suggested problem type (regression/classification) with reasoning tied to the data
+- List feature columns to use vs exclude (IDs, high-missing columns)
+- Never give generic ML advice that ignores the uploaded schema
+
 Analyze:
-- Dataset structure
-- Problem type
-- Target variable
-- Data format
+- Dataset structure from the profile and sample rows
+- Problem type and target variable (use suggested target unless the user specified otherwise)
+- Data quality issues listed in the profile
 
 Decide whether the task is:
 1. Regression
@@ -52,12 +57,13 @@ ${ML_FREE_STACK}`,
     name: 'Data Preprocessing Agent',
     prompt: (task: string, prevContent: string = '') => `You are a Data Preparation Agent.
 
-User task: "${task}"
+User task (may include STATISTICAL DATASET PROFILE):
+"${task}"
 
 Prior pipeline context:
 ${prevContent}
 
-Your job is to prepare raw datasets for machine learning.
+Your job is to prepare raw datasets for machine learning. Use column names and missing rates from the dataset profile when present.
 
 Perform:
 - Missing value detection
@@ -77,7 +83,9 @@ Return:
 3. Feature summary
 4. Final training schema
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+Keep this step concise (under 700 words). Use prior pipeline context only.`,
   },
   {
     step: 3,
@@ -117,7 +125,9 @@ Explain:
 - Limitations
 - Expected performance
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+Keep this step concise (under 700 words).`,
   },
   {
     step: 4,
@@ -148,7 +158,9 @@ model = RandomForestClassifier(n_estimators=100)
 model.fit(X_train, y_train)
 \`\`\`
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+Keep training code focused; under 700 words outside code blocks.`,
   },
   {
     step: 5,
@@ -173,7 +185,9 @@ Suggest concrete improvements.
 
 Include evaluation code snippets using scikit-learn or the appropriate framework.
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+Keep concise (under 700 words).`,
   },
   {
     step: 6,
@@ -198,7 +212,9 @@ Recommend the best production model with rationale.
 
 Provide optimization code examples (GridSearchCV or framework-native tuning).
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+Keep concise (under 700 words).`,
   },
   {
     step: 7,
@@ -222,7 +238,9 @@ For NLP tasks handle:
 
 Return model architecture overview, training steps, and evaluation approach.
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+If NLP, be concise (under 600 words).`,
   },
   {
     step: 8,
@@ -246,7 +264,9 @@ For CV tasks:
 
 Return complete training strategy with PyTorch or TensorFlow/Keras code outlines.
 
-${ML_FREE_STACK}`,
+${ML_FREE_STACK}
+
+If CV, be concise (under 600 words).`,
   },
   {
     step: 9,
@@ -277,3 +297,4 @@ This is the definitive handoff: autonomous ML pipeline from dataset analysis thr
 export function getModelTrainingSteps(): AgentStepConfig[] {
   return MODEL_TRAINING_STEPS
 }
+

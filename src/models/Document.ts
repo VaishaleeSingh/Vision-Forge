@@ -2,6 +2,8 @@ import mongoose, { Schema, Document, Model } from 'mongoose'
 
 export type DocumentStatus = 'uploading' | 'processing' | 'ready' | 'error'
 
+export type EmbeddingProviderId = 'gemini' | 'huggingface-bge'
+
 export interface IDocument extends Document {
   userId: mongoose.Types.ObjectId
   name: string
@@ -10,6 +12,9 @@ export interface IDocument extends Document {
   mimeType: string
   status: DocumentStatus
   chunkCount: number
+  /** Full extracted text stored for reference and re-processing */
+  extractedText?: string
+  embeddingProvider?: EmbeddingProviderId
   errorMessage?: string
   createdAt: Date
   updatedAt: Date
@@ -24,6 +29,11 @@ const DocumentSchema = new Schema<IDocument>(
     mimeType:     { type: String, required: true },
     status:       { type: String, enum: ['uploading','processing','ready','error'], default: 'uploading' },
     chunkCount:   { type: Number, default: 0 },
+    extractedText: { type: String },
+    embeddingProvider: {
+      type: String,
+      enum: ['gemini', 'huggingface-bge'],
+    },
     errorMessage: { type: String },
   },
   { timestamps: true }

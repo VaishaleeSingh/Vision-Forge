@@ -153,7 +153,7 @@ export default function GlobalSearchModal() {
                     {results.map((item) => (
                       <button
                         key={item._id}
-                        onClick={() => handleNavigate('/library')}
+                        onClick={() => handleNavigate(`/library?id=${item._id}`)}
                         className="flex items-center justify-between p-3 rounded-xl hover:bg-beige-50 transition-colors text-left group"
                       >
                         <div className="flex items-center gap-3 truncate pr-4">
