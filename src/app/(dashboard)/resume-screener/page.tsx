@@ -3,8 +3,7 @@
 import { useState, useRef } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { motion, AnimatePresence } from 'framer-motion'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import { RichTextInput, RichTextOutput } from '@/components/rich-text'
 import {
   Briefcase, FileText, Upload, X, Loader2, Sparkles, AlertCircle, CheckCircle2
 } from 'lucide-react'
@@ -118,20 +117,16 @@ export default function ResumeScreenerPage() {
             <span className="text-xs font-semibold text-aqua-600 uppercase tracking-wider">Configuration</span>
           </div>
 
-          {/* JD Textarea */}
-          <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-secondary uppercase tracking-wide">
-              Job Description
-            </label>
-            <textarea
-              className="input-base resize-none leading-relaxed text-sm"
-              rows={8}
-              placeholder="Paste the full job description here (requirements, responsibilities, tech stack, etc.)..."
-              value={jd}
-              onChange={e => setJd(e.target.value)}
-              disabled={isProcessing}
-            />
-          </div>
+          <RichTextInput
+            label="Job Description"
+            placeholder="Paste the full job description here (requirements, responsibilities, tech stack, etc.)..."
+            value={jd}
+            onChange={setJd}
+            onSubmit={handleScreen}
+            submitHint="Enter to screen resume · Shift+Enter for new line"
+            disabled={isProcessing}
+            minHeight={180}
+          />
 
           {/* Resume Upload */}
           <div className="space-y-1.5">
@@ -229,11 +224,11 @@ export default function ResumeScreenerPage() {
 
               {result && (
                 <motion.div key="result" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="relative">
-                  <div className={`prose prose-sm md:prose-base prose-slate max-w-none text-primary prose-headings:font-bold prose-headings:text-aqua-800 prose-a:text-aqua-600 ${isProcessing ? 'streaming-cursor' : ''}`}>
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                      {result}
-                    </ReactMarkdown>
-                  </div>
+                  <RichTextOutput
+                    content={result}
+                    format="markdown"
+                    isLoading={isProcessing}
+                  />
                 </motion.div>
               )}
             </AnimatePresence>

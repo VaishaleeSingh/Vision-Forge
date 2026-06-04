@@ -2,8 +2,7 @@
 
 import { useState, useRef, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import { RichTextInput, RichTextOutput } from '@/components/rich-text'
 import {
   Sparkles,
   Wand2,
@@ -228,25 +227,16 @@ export default function TextStudioPage() {
             </span>
           </div>
 
-          {/* ── Textarea ── */}
-          <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-secondary uppercase tracking-wide">
-              What do you want to create?
-            </label>
-            <textarea
-              className="input-base resize-none leading-relaxed"
-              rows={6}
-              placeholder="Describe what you want to create... e.g. 'Write a blog post about the future of renewable energy, focusing on solar panel innovations for homeowners.'"
-              value={prompt}
-              onChange={e => setPrompt(e.target.value)}
-              onKeyDown={e => {
-                if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) handleGenerate()
-              }}
-            />
-            <p className="text-xs text-muted text-right">
-              {prompt.length} chars · Ctrl+Enter to generate
-            </p>
-          </div>
+          <RichTextInput
+            label="What do you want to create?"
+            placeholder="Describe what you want to create... e.g. 'Write a blog post about the future of renewable energy, focusing on solar panel innovations for homeowners.'"
+            value={prompt}
+            onChange={setPrompt}
+            onSubmit={handleGenerate}
+            submitHint="Enter to generate · Shift+Enter for new line"
+            showCharCount
+            minHeight={140}
+          />
 
           {/* ── Tone Selector ── */}
           <div className="space-y-2">
@@ -491,10 +481,12 @@ export default function TextStudioPage() {
                   animate={{ opacity: 1 }}
                   className="relative"
                 >
-                  <div className={`prose prose-sm md:prose-base prose-slate max-w-none text-primary p-2 prose-headings:font-bold prose-headings:text-aqua-800 prose-a:text-aqua-600 ${isLoading ? 'streaming-cursor' : ''}`}>
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                      {result}
-                    </ReactMarkdown>
+                  <div className="p-2">
+                    <RichTextOutput
+                      content={result}
+                      format="markdown"
+                      isLoading={isLoading}
+                    />
                   </div>
                   {isImproving && (
                     <motion.div

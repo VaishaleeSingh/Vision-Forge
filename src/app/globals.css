@@ -216,6 +216,8 @@ h4, h5, h6, p, span, a, button, input, textarea, select {
 
 .input-base {
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   padding: 12px 16px;
   border-radius: 12px;
   font-size: 14px;
@@ -230,6 +232,30 @@ h4, h5, h6, p, span, a, button, input, textarea, select {
 .input-base:focus {
   border-color: var(--aqua-400);
   box-shadow: 0 0 0 3px rgba(11, 191, 191, 0.12);
+}
+
+/* Tiptap rich text editor */
+.rich-text-editor .ProseMirror {
+  outline: none;
+  min-height: inherit;
+}
+.rich-text-editor .ProseMirror p {
+  margin: 0.25em 0;
+}
+.rich-text-editor .ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--text-muted);
+  pointer-events: none;
+  height: 0;
+}
+.rich-text-link {
+  color: var(--aqua-600);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.rich-text-link:hover {
+  color: var(--aqua-700);
 }
 
 .stat-card {

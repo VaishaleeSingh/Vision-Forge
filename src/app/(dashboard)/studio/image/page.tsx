@@ -20,6 +20,7 @@ import {
   Palette,
 } from 'lucide-react'
 import { IMAGE_STYLES } from '@/lib/prompt-templates'
+import { RichTextInput, RichTextOutput } from '@/components/rich-text'
 
 // ── Style icon mapping ─────────────────────────────────────────────────────
 const STYLE_ICONS: Record<string, string> = {
@@ -365,19 +366,14 @@ export default function ImageStudioPage() {
                 <label className="block text-sm font-semibold text-[#1a2332]">
                   Image Prompt
                 </label>
-                <textarea
+                <RichTextInput
                   value={prompt}
-                  onChange={(e) => setPrompt(e.target.value)}
-                  placeholder="Describe the image you want to create…&#10;e.g. A serene mountain lake at golden hour, misty peaks in the background"
-                  rows={5}
-                  className="input-base w-full resize-none text-sm leading-relaxed"
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) handleGenerate()
-                  }}
+                  onChange={setPrompt}
+                  placeholder="Describe the image you want to create… e.g. A serene mountain lake at golden hour, misty peaks in the background"
+                  onSubmit={handleGenerate}
+                  submitHint="Enter to generate · Shift+Enter for new line"
+                  minHeight={120}
                 />
-                <p className="text-[10px] text-[#718096]">
-                  Tip: Press Ctrl+Enter to generate instantly
-                </p>
               </div>
 
               {/* Style presets */}
@@ -442,12 +438,11 @@ export default function ImageStudioPage() {
                       className="overflow-hidden"
                     >
                       <div className="px-4 pb-4 space-y-2">
-                        <textarea
+                        <RichTextInput
                           value={negativePrompt}
-                          onChange={(e) => setNegativePrompt(e.target.value)}
+                          onChange={setNegativePrompt}
                           placeholder="What to avoid: blurry, low quality, distorted, watermark, text…"
-                          rows={3}
-                          className="input-base w-full resize-none text-sm"
+                          minHeight={72}
                         />
                       </div>
                     </motion.div>
@@ -593,12 +588,13 @@ export default function ImageStudioPage() {
                   Custom Question
                   <span className="badge badge-beige text-[10px]">Optional</span>
                 </label>
-                <textarea
+                <RichTextInput
                   value={analyzePrompt}
-                  onChange={(e) => setAnalyzePrompt(e.target.value)}
+                  onChange={setAnalyzePrompt}
+                  onSubmit={handleAnalyze}
+                  submitHint="Enter to analyze · Shift+Enter for new line"
                   placeholder="Ask something specific, e.g. 'What colors dominate this image?' or leave blank for full analysis…"
-                  rows={3}
-                  className="input-base w-full resize-none text-sm"
+                  minHeight={72}
                 />
               </div>
 
@@ -662,12 +658,7 @@ export default function ImageStudioPage() {
 
                     <div className="divider" />
 
-                    {/* Formatted analysis text */}
-                    <div className="prose prose-sm max-w-none">
-                      <div className="text-[#2d3748] text-sm leading-relaxed whitespace-pre-wrap">
-                        {analysisResult}
-                      </div>
-                    </div>
+                    <RichTextOutput content={analysisResult} format="markdown" />
 
                     <button
                       onClick={() => {

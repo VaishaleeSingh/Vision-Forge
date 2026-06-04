@@ -3,8 +3,8 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { motion, AnimatePresence } from 'framer-motion'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import { RichTextInput, RichTextOutput } from '@/components/rich-text'
+import type { Editor } from '@tiptap/react'
 import {
   FileText,
   FileType,
@@ -101,7 +101,7 @@ export default function KnowledgePage() {
   const [uploadError, setUploadError] = useState<string | null>(null)
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const chatEditorRef = useRef<Editor | null>(null)
 
   useEffect(() => {
     fetchDocuments()
@@ -214,7 +214,7 @@ export default function KnowledgePage() {
     if (doc.status !== 'ready') return
     setSelectedDoc(doc)
     setMessages([])
-    setTimeout(() => inputRef.current?.focus(), 100)
+    setTimeout(() => chatEditorRef.current?.commands.focus(), 100)
   }
 
   // ── Send message ───────────────────────────────────────────────────────────
@@ -314,13 +314,6 @@ export default function KnowledgePage() {
       )
     } finally {
       setIsSending(false)
-    }
-  }
-
-  function handleKeyDown(e: React.KeyboardEvent) {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault()
-      handleSend()
     }
   }
 
@@ -657,11 +650,11 @@ export default function KnowledgePage() {
                       {msg.role === 'user' ? (
                         <p className="whitespace-pre-wrap">{msg.content}</p>
                       ) : (
-                        <div className={`prose prose-sm max-w-none text-primary prose-p:leading-relaxed prose-a:text-aqua-600 prose-headings:font-bold prose-headings:text-aqua-800 ${msg.isStreaming ? 'streaming-cursor' : ''}`}>
-                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                            {msg.content || (msg.isStreaming ? '' : '…')}
-                          </ReactMarkdown>
-                        </div>
+                        <RichTextOutput
+                          content={msg.content || (msg.isStreaming ? '' : '…')}
+                          format="markdown"
+                          isLoading={msg.isStreaming}
+                        />
                       )}
                     </div>
 
@@ -690,20 +683,20 @@ export default function KnowledgePage() {
         {/* Input Bar */}
         <div className="px-5 py-4 border-t border-[var(--border-default)] shrink-0">
           <div className={`flex gap-3 items-center transition-opacity ${!selectedDoc ? 'opacity-50 pointer-events-none' : ''}`}>
-            <div className="flex-1 relative">
-              <input
-                ref={inputRef}
-                type="text"
+            <div className="flex-1 min-w-0">
+              <RichTextInput
                 value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                onKeyDown={handleKeyDown}
+                onChange={setInputValue}
+                variant="compact"
+                onSubmit={handleSend}
+                onEditorReady={(ed) => { chatEditorRef.current = ed }}
                 placeholder={
                   selectedDoc
                     ? `Ask about ${selectedDoc.originalName}…`
                     : 'Select a document first…'
                 }
                 disabled={!selectedDoc || isSending}
-                className="input-base pr-4"
+                minHeight={44}
               />
             </div>
             <button
@@ -720,7 +713,7 @@ export default function KnowledgePage() {
             </button>
           </div>
           <p className="text-[10px] text-[var(--text-muted)] mt-2 text-center">
-            Answers are grounded in the selected document · Powered by Gemini
+            Enter to send · Shift+Enter for new line · Answers grounded in your document
           </p>
         </div>
       </div>

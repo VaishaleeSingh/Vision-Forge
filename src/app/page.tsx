@@ -46,7 +46,7 @@ const features = [
   {
     icon: Shield,
     title: 'Secure & Private',
-    description: 'Your documents stay private. OAuth2 auth, encrypted API keys, rate limiting, and input validation built-in.',
+    description: 'Your documents stay private. Secure email login, encrypted passwords, rate limiting, and input validation built-in.',
     badge: 'Enterprise-grade',
     color: 'from-aqua-400 to-teal-500',
   },
@@ -78,8 +78,8 @@ export default function LandingPage() {
         </div>
         <div className="flex items-center gap-3">
           <Link href="/login" className="btn-ghost text-sm">Sign In</Link>
-          <Link href="/login" className="btn-primary text-sm">
-            Start Free <ArrowRight size={15} />
+          <Link href="/login?tab=signup" className="btn-primary text-sm">
+            Sign Up Free <ArrowRight size={15} />
           </Link>
         </div>
       </nav>

@@ -2,14 +2,44 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import { RichTextInput, RichTextOutput } from '@/components/rich-text'
 import {
-  Search, Sparkles, BarChart3, Settings, Play,
-  CheckCircle2, CircleDashed, Check, Loader2, PlayCircle, Clock
+  Search, Sparkles, BarChart3, Brain, Settings, Play,
+  CheckCircle2, CircleDashed, Loader2, PlayCircle
 } from 'lucide-react'
 
-type AgentType = 'research' | 'content' | 'analysis'
+type AgentType = 'research' | 'content' | 'analysis' | 'model-training'
+
+const AGENT_STEP_LABELS: Record<AgentType, string[]> = {
+  research: [
+    '🔍 Researcher Agent gathering evidence...',
+    '✏️ Writer Agent drafting content...',
+    '🔄 Critic Agent reviewing quality...',
+    '✅ Finalizing output...',
+  ],
+  content: [
+    '🔍 Researcher thinking...',
+    '✏️ Writer drafting...',
+    '🔄 Critic reviewing...',
+    '✅ Finalizing output...',
+  ],
+  analysis: [
+    '📥 Data Extraction Agent parsing inputs...',
+    '🧠 Insight Agent finding patterns...',
+    '📌 Recommendations Agent creating roadmap...',
+  ],
+  'model-training': [
+    '🎯 ML Orchestrator Agent analyzing problem...',
+    '🧹 Data Preprocessing Agent preparing data...',
+    '🧠 Model Selection Agent picking algorithm...',
+    '⭐ Model Training Agent generating training code...',
+    '📈 Model Evaluation Agent computing metrics...',
+    '⚙️ Hyperparameter Optimization Agent tuning model...',
+    '📝 NLP Fine-tuning Agent (BERT/Hugging Face if applicable)...',
+    '👁️ Computer Vision Training Agent (CNN/ResNet if applicable)...',
+    '📋 Final ML Report Agent synthesizing deliverable...',
+  ],
+}
 
 const AGENT_TEMPLATES = [
   {
@@ -33,6 +63,14 @@ const AGENT_TEMPLATES = [
     description: 'Analyze text/data and extract key insights, patterns, and recommendations',
     color: 'from-aqua-500 to-cyan-500',
   },
+  {
+    id: 'model-training',
+    icon: Brain,
+    title: 'ML Training Pipeline',
+    description:
+      'End-to-end ML lifecycle: orchestration → preprocessing → model selection → training → evaluation → optimization',
+    color: 'from-cyan-500 to-blue-600',
+  },
 ]
 
 type Step = {
@@ -50,30 +88,16 @@ export default function AgentsPage() {
   const [steps, setSteps] = useState<Step[]>([])
   const [finalResult, setFinalResult] = useState<string | null>(null)
   
-  const activeTemplate = AGENT_TEMPLATES.find(a => a.id === selectedAgent)
-
   const handleRun = async () => {
     if (!task.trim()) return
     setIsRunning(true)
     setFinalResult(null)
     
-    // Initialize steps
-    const initialSteps: Step[] = [
-      { id: 1, label: 'Initializing agent loop...', status: 'pending' }
-    ]
-    if (selectedAgent === 'content') {
-      initialSteps.push(
-        { id: 2, label: '🔍 Researcher thinking...', status: 'pending' },
-        { id: 3, label: '✏️ Writer drafting...', status: 'pending' },
-        { id: 4, label: '🔄 Critic reviewing...', status: 'pending' },
-        { id: 5, label: '✅ Finalizing output...', status: 'pending' }
-      )
-    } else {
-      initialSteps.push(
-        { id: 2, label: 'Processing task...', status: 'pending' },
-        { id: 3, label: 'Compiling results...', status: 'pending' }
-      )
-    }
+    const initialSteps: Step[] = AGENT_STEP_LABELS[selectedAgent].map((label, index) => ({
+      id: index + 1,
+      label,
+      status: 'pending' as const,
+    }))
     setSteps(initialSteps)
     
     try {
@@ -104,9 +128,14 @@ export default function AgentsPage() {
                 const data = JSON.parse(line.slice(6))
                 
                 if (data.type === 'step_update') {
-                  setSteps(prev => prev.map(s => 
-                    s.id === data.step 
-                      ? { ...s, status: data.status, content: data.content } 
+                  setSteps(prev => prev.map(s =>
+                    s.id === data.step
+                      ? {
+                          ...s,
+                          status: data.status,
+                          content: data.content,
+                          label: data.name ? `${getStepEmoji(data.status)} ${data.name}` : s.label,
+                        }
                       : s
                   ))
                 } else if (data.type === 'result') {
@@ -176,13 +205,18 @@ export default function AgentsPage() {
 
           <div className="glass-card p-4 space-y-3 mt-4">
             <h2 className="text-sm font-semibold text-[#1a2332]">Task Definition</h2>
-            <textarea
+            <RichTextInput
               value={task}
-              onChange={(e) => setTask(e.target.value)}
-              placeholder="E.g. Analyze the current state of generative AI in healthcare and write a comprehensive report."
-              rows={4}
+              onChange={setTask}
+              onSubmit={handleRun}
+              submitHint="Enter to run agent · Shift+Enter for new line"
+              placeholder={
+                selectedAgent === 'model-training'
+                  ? 'E.g. Dataset: house_prices.csv | Goal: Predict price | Features: bedrooms, sqft, grade | Target: price'
+                  : 'E.g. Analyze the current state of generative AI in healthcare and write a comprehensive report.'
+              }
               disabled={isRunning}
-              className="input-base w-full resize-none text-sm"
+              minHeight={100}
             />
             
             <div className="flex items-center gap-2 text-sm text-[#4a5568]">
@@ -264,11 +298,9 @@ export default function AgentsPage() {
                           <motion.div 
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: 'auto' }}
-                            className="mt-2 text-xs text-[#4a5568] bg-beige-50 p-3 rounded-lg border border-beige-200 prose prose-sm max-w-none prose-headings:font-bold prose-headings:text-aqua-800 prose-a:text-aqua-600"
+                            className="mt-2 text-xs text-[#4a5568] bg-beige-50 p-3 rounded-lg border border-beige-200"
                           >
-                            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                              {step.content}
-                            </ReactMarkdown>
+                            <RichTextOutput content={step.content} format="markdown" />
                           </motion.div>
                         )}
                       </div>
@@ -288,11 +320,7 @@ export default function AgentsPage() {
                     Final Result
                   </h3>
                   <div className="bg-white p-4 rounded-xl border border-beige-200 text-sm text-[#2d3748] shadow-sm">
-                    <div className="prose prose-sm max-w-none prose-headings:font-bold prose-headings:text-aqua-800 prose-a:text-aqua-600">
-                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                        {finalResult}
-                      </ReactMarkdown>
-                    </div>
+                    <RichTextOutput content={finalResult} format="markdown" />
                   </div>
                 </motion.div>
               )}
@@ -304,9 +332,16 @@ export default function AgentsPage() {
   )
 }
 
-function BotIcon(props: any) {
+function getStepEmoji(status: Step['status']): string {
+  if (status === 'running') return '⏳'
+  if (status === 'done') return '✅'
+  if (status === 'error') return '❌'
+  return '○'
+}
+
+function BotIcon({ size = 24, ...props }: React.SVGProps<SVGSVGElement> & { size?: number }) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
       <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
     </svg>
   )

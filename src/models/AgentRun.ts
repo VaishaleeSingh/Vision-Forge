@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document, Model } from 'mongoose'
 
-export type AgentType = 'research' | 'content' | 'analysis'
+export type AgentType = 'research' | 'content' | 'analysis' | 'model-training'
 
 export interface IAgentStep {
   step: number
@@ -31,7 +31,7 @@ const AgentStepSchema = new Schema<IAgentStep>({
 const AgentRunSchema = new Schema<IAgentRun>(
   {
     userId:      { type: Schema.Types.ObjectId, ref: 'User', required: true, index: true },
-    agentType:   { type: String, enum: ['research', 'content', 'analysis'], required: true },
+    agentType:   { type: String, enum: ['research', 'content', 'analysis', 'model-training'], required: true },
     task:        { type: String, required: true },
     model:       { type: String, default: 'gemini-2.0-flash' },
     steps:       { type: [AgentStepSchema], default: [] },

@@ -3,6 +3,8 @@ import { auth } from '@/lib/auth'
 import connectDB from '@/lib/mongodb'
 import { geminiFlash } from '@/lib/ai'
 import AgentRun from '@/models/AgentRun'
+import { getModelTrainingSteps } from '@/features/agents/server/workflows'
+import { estimateTokens } from '@/lib/utils'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -24,27 +26,29 @@ async function generateWithGemini(prompt: string): Promise<string> {
   return result.response.text()
 }
 
-async function generateWithGroq(prompt: string): Promise<string> {
+async function generateWithGroq(prompt: string, maxTokens = 2048): Promise<string> {
   const { default: Groq } = await import('groq-sdk')
   const groq = new Groq({ apiKey: process.env.GROQ_API_KEY || '' })
   const completion = await groq.chat.completions.create({
     model: 'llama-3.1-8b-instant',
     messages: [{ role: 'user', content: prompt }],
-    max_tokens: 2048,
+    max_tokens: maxTokens,
   })
   return completion.choices[0]?.message?.content || ''
 }
 
-async function callAI(prompt: string, model: string): Promise<string> {
+async function callAI(prompt: string, model: string, maxTokens = 2048): Promise<string> {
   if (model === 'groq-llama') {
-    return generateWithGroq(prompt)
+    return generateWithGroq(prompt, maxTokens)
   }
   try {
     return await generateWithGemini(prompt)
-  } catch (error: any) {
-    if (error?.message?.includes('429') || error?.status === 429 || error?.message?.includes('quota')) {
+  } catch (error: unknown) {
+    const errObj = error as { message?: string; status?: number }
+    const message = errObj?.message ?? ''
+    if (message.includes('429') || errObj?.status === 429 || message.includes('quota')) {
       console.warn('[Agent] Gemini rate limited (429), auto-falling back to Groq...')
-      return generateWithGroq(prompt)
+      return generateWithGroq(prompt, maxTokens)
     }
     throw error
   }
@@ -229,6 +233,8 @@ function getSteps(agentType: string): AgentStepConfig[] {
       return CONTENT_STEPS as AgentStepConfig[]
     case 'analysis':
       return ANALYSIS_STEPS as AgentStepConfig[]
+    case 'model-training':
+      return getModelTrainingSteps()
     default:
       return RESEARCH_STEPS as AgentStepConfig[]
   }
@@ -264,6 +270,8 @@ export async function POST(req: NextRequest) {
 
       try {
         let previousContent = ''
+        let pipelineContext = ''
+        const usePipelineContext = agentType === 'model-training'
 
         for (let i = 0; i < steps.length; i++) {
           const stepConfig = steps[i]
@@ -282,13 +290,20 @@ export async function POST(req: NextRequest) {
           await new Promise(r => setTimeout(r, 300))
 
           try {
-            const prompt = stepConfig.prompt(task, previousContent)
-            const content = await callAI(prompt, model || 'gemini-flash')
-            totalTokens += Math.ceil(content.length / 4)
+            const contextForPrompt = usePipelineContext ? pipelineContext : previousContent
+            const prompt = stepConfig.prompt(task, contextForPrompt)
+            const tokenBudget = usePipelineContext ? 4096 : 2048
+            const content = await callAI(prompt, model || 'gemini-flash', tokenBudget)
+            totalTokens += estimateTokens(content)
 
             stepResults[i].status = 'done'
             stepResults[i].content = content
             previousContent = content
+            if (usePipelineContext) {
+              pipelineContext = pipelineContext
+                ? `${pipelineContext}\n\n---\n\n## ${stepConfig.name}\n${content}`
+                : `## ${stepConfig.name}\n${content}`
+            }
 
             enqueue({
               type: 'step_update',
