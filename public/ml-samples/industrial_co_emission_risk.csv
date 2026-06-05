@@ -1,0 +1,451 @@
+report_id,facility_type,region,inspection_report,co_risk_level
+RPT-0001,Cement plant,Central,Site 1: Cement plant outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0002,Steel mill,West,RPT-0002: Steel mill intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0003,Foundry,East,Audit 3 at Foundry: CO reached 38 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0004,Foundry,South,Inspection RPT-0004: Foundry stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0005,Power station,South,Audit 5 at Power station: CO reached 40 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0006,Foundry,North,Inspection RPT-0006: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0007,Foundry,South,Audit 7 at Foundry: CO reached 42 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0008,Foundry,North,Inspection RPT-0008: Foundry stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0009,Chemical refinery,North,Site 9: Chemical refinery outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0010,Cement plant,East,Inspection RPT-0010: Cement plant stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0011,Power station,West,Site 11: Power station outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0012,Power station,Central,RPT-0012: Power station intermittent CO spikes to 47 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0013,Steel mill,North,Audit 13 at Steel mill: CO reached 48 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0014,Steel mill,Central,RPT-0014: Steel mill intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0015,Foundry,East,Site 15: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0016,Cement plant,South,RPT-0016: Cement plant intermittent CO spikes to 36 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0017,Power station,Central,Emergency 17: Power station reading 167 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0018,Steel mill,West,Inspection RPT-0018: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0019,Foundry,North,Site 19: Foundry outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0020,Foundry,North,Inspection RPT-0020: Foundry stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0021,Foundry,Central,Emergency 21: Foundry reading 171 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0022,Foundry,West,Inspection RPT-0022: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0023,Power station,South,Audit 23 at Power station: CO reached 43 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0024,Chemical refinery,West,CRITICAL RPT-0024: Chemical refinery CO peaked at 174 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0025,Power station,North,Emergency 25: Power station reading 175 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0026,Power station,North,Inspection RPT-0026: Power station stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0027,Power station,South,Audit 27 at Power station: CO reached 47 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0028,Cement plant,West,CRITICAL RPT-0028: Cement plant CO peaked at 178 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0029,Chemical refinery,North,Audit 29 at Chemical refinery: CO reached 49 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0030,Chemical refinery,North,Inspection RPT-0030: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0031,Power station,East,Audit 31 at Power station: CO reached 36 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0032,Steel mill,South,RPT-0032: Steel mill intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0033,Power station,South,Site 33: Power station outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0034,Foundry,South,Inspection RPT-0034: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0035,Power station,South,Audit 35 at Power station: CO reached 40 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0036,Cement plant,South,CRITICAL RPT-0036: Cement plant CO peaked at 186 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0037,Cement plant,South,Site 37: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0038,Foundry,North,Inspection RPT-0038: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0039,Steel mill,West,Emergency 39: Steel mill reading 189 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0040,Foundry,Central,Inspection RPT-0040: Foundry stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0041,Steel mill,East,Emergency 41: Steel mill reading 191 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0042,Foundry,Central,Inspection RPT-0042: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0043,Chemical refinery,Central,Audit 43 at Chemical refinery: CO reached 48 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0044,Chemical refinery,Central,Inspection RPT-0044: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0045,Cement plant,West,Site 45: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0046,Power station,North,CRITICAL RPT-0046: Power station CO peaked at 196 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0047,Foundry,South,Site 47: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0048,Power station,Central,CRITICAL RPT-0048: Power station CO peaked at 198 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0049,Power station,North,Site 49: Power station outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0050,Steel mill,West,RPT-0050: Steel mill intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0051,Foundry,East,Site 51: Foundry outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0052,Foundry,South,CRITICAL RPT-0052: Foundry CO peaked at 202 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0053,Foundry,East,Site 53: Foundry outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0054,Power station,East,CRITICAL RPT-0054: Power station CO peaked at 204 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0055,Chemical refinery,West,Site 55: Chemical refinery outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0056,Cement plant,East,RPT-0056: Cement plant intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0057,Chemical refinery,East,Emergency 57: Chemical refinery reading 207 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0058,Power station,South,Inspection RPT-0058: Power station stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0059,Foundry,North,Audit 59 at Foundry: CO reached 49 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0060,Chemical refinery,Central,CRITICAL RPT-0060: Chemical refinery CO peaked at 210 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0061,Power station,South,Emergency 61: Power station reading 211 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0062,Cement plant,South,CRITICAL RPT-0062: Cement plant CO peaked at 212 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0063,Power station,South,Emergency 63: Power station reading 213 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0064,Power station,Central,RPT-0064: Power station intermittent CO spikes to 39 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0065,Foundry,West,Audit 65 at Foundry: CO reached 40 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0066,Chemical refinery,Central,Inspection RPT-0066: Chemical refinery stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0067,Steel mill,South,Site 67: Steel mill outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0068,Steel mill,East,Inspection RPT-0068: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0069,Power station,North,Emergency 69: Power station reading 219 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0070,Power station,East,RPT-0070: Power station intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0071,Chemical refinery,Central,Site 71: Chemical refinery outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0072,Chemical refinery,West,Inspection RPT-0072: Chemical refinery stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0073,Steel mill,Central,Site 73: Steel mill outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0074,Cement plant,Central,RPT-0074: Cement plant intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0075,Cement plant,East,Emergency 75: Cement plant reading 225 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0076,Chemical refinery,Central,Inspection RPT-0076: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0077,Power station,West,Emergency 77: Power station reading 227 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0078,Steel mill,East,Inspection RPT-0078: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0079,Power station,South,Audit 79 at Power station: CO reached 39 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0080,Cement plant,East,RPT-0080: Cement plant intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0081,Power station,Central,Audit 81 at Power station: CO reached 41 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0082,Power station,North,CRITICAL RPT-0082: Power station CO peaked at 152 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0083,Steel mill,South,Site 83: Steel mill outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0084,Chemical refinery,East,Inspection RPT-0084: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0085,Chemical refinery,West,Audit 85 at Chemical refinery: CO reached 45 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0086,Chemical refinery,East,CRITICAL RPT-0086: Chemical refinery CO peaked at 156 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0087,Foundry,West,Audit 87 at Foundry: CO reached 47 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0088,Power station,North,Inspection RPT-0088: Power station stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0089,Cement plant,East,Audit 89 at Cement plant: CO reached 49 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0090,Steel mill,West,Inspection RPT-0090: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0091,Steel mill,West,Site 91: Steel mill outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0092,Foundry,West,Inspection RPT-0092: Foundry stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0093,Foundry,North,Emergency 93: Foundry reading 163 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0094,Steel mill,South,Inspection RPT-0094: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0095,Steel mill,West,Audit 95 at Steel mill: CO reached 40 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0096,Chemical refinery,East,Inspection RPT-0096: Chemical refinery stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0097,Power station,South,Audit 97 at Power station: CO reached 42 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0098,Foundry,North,CRITICAL RPT-0098: Foundry CO peaked at 168 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0099,Steel mill,East,Audit 99 at Steel mill: CO reached 44 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0100,Power station,Central,RPT-0100: Power station intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0101,Chemical refinery,South,Audit 101 at Chemical refinery: CO reached 46 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0102,Foundry,Central,Inspection RPT-0102: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0103,Power station,Central,Audit 103 at Power station: CO reached 48 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0104,Power station,Central,RPT-0104: Power station intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0105,Chemical refinery,West,Emergency 105: Chemical refinery reading 175 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0106,Foundry,North,Inspection RPT-0106: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0107,Power station,West,Site 107: Power station outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0108,Chemical refinery,North,Inspection RPT-0108: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0109,Steel mill,South,Audit 109 at Steel mill: CO reached 39 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0110,Chemical refinery,Central,Inspection RPT-0110: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0111,Steel mill,West,Audit 111 at Steel mill: CO reached 41 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0112,Power station,West,Inspection RPT-0112: Power station stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0113,Chemical refinery,North,Audit 113 at Chemical refinery: CO reached 43 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0114,Foundry,West,Inspection RPT-0114: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0115,Foundry,South,Audit 115 at Foundry: CO reached 45 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0116,Cement plant,West,RPT-0116: Cement plant intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0117,Power station,North,Site 117: Power station outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0118,Power station,Central,RPT-0118: Power station intermittent CO spikes to 48 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0119,Foundry,East,Emergency 119: Foundry reading 189 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0120,Chemical refinery,Central,RPT-0120: Chemical refinery intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0121,Chemical refinery,North,Audit 121 at Chemical refinery: CO reached 36 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0122,Cement plant,North,Inspection RPT-0122: Cement plant stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0123,Power station,East,Audit 123 at Power station: CO reached 38 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0124,Foundry,East,RPT-0124: Foundry intermittent CO spikes to 39 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0125,Steel mill,Central,Site 125: Steel mill outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0126,Steel mill,North,Inspection RPT-0126: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0127,Chemical refinery,West,Site 127: Chemical refinery outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0128,Steel mill,South,Inspection RPT-0128: Steel mill stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0129,Steel mill,East,Audit 129 at Steel mill: CO reached 44 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0130,Power station,West,Inspection RPT-0130: Power station stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0131,Chemical refinery,North,Audit 131 at Chemical refinery: CO reached 46 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0132,Chemical refinery,South,Inspection RPT-0132: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0133,Steel mill,West,Site 133: Steel mill outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0134,Steel mill,South,RPT-0134: Steel mill intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0135,Cement plant,East,Emergency 135: Cement plant reading 205 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0136,Power station,North,CRITICAL RPT-0136: Power station CO peaked at 206 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0137,Cement plant,West,Site 137: Cement plant outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0138,Cement plant,North,RPT-0138: Cement plant intermittent CO spikes to 38 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0139,Cement plant,North,Audit 139 at Cement plant: CO reached 39 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0140,Foundry,South,RPT-0140: Foundry intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0141,Power station,East,Site 141: Power station outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0142,Chemical refinery,North,Inspection RPT-0142: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0143,Foundry,East,Audit 143 at Foundry: CO reached 43 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0144,Power station,South,RPT-0144: Power station intermittent CO spikes to 44 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0145,Chemical refinery,South,Emergency 145: Chemical refinery reading 215 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0146,Steel mill,West,Inspection RPT-0146: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0147,Chemical refinery,East,Site 147: Chemical refinery outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0148,Foundry,South,Inspection RPT-0148: Foundry stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0149,Steel mill,Central,Emergency 149: Steel mill reading 219 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0150,Power station,South,RPT-0150: Power station intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0151,Chemical refinery,South,Emergency 151: Chemical refinery reading 221 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0152,Cement plant,Central,RPT-0152: Cement plant intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0153,Chemical refinery,North,Emergency 153: Chemical refinery reading 223 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0154,Steel mill,South,Inspection RPT-0154: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0155,Foundry,South,Emergency 155: Foundry reading 225 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0156,Power station,Central,Inspection RPT-0156: Power station stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0157,Chemical refinery,West,Emergency 157: Chemical refinery reading 227 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0158,Cement plant,West,Inspection RPT-0158: Cement plant stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0159,Chemical refinery,East,Audit 159 at Chemical refinery: CO reached 44 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0160,Steel mill,West,RPT-0160: Steel mill intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0161,Foundry,West,Site 161: Foundry outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0162,Cement plant,Central,RPT-0162: Cement plant intermittent CO spikes to 47 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0163,Chemical refinery,West,Site 163: Chemical refinery outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0164,Chemical refinery,Central,CRITICAL RPT-0164: Chemical refinery CO peaked at 154 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0165,Foundry,Central,Site 165: Foundry outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0166,Cement plant,East,RPT-0166: Cement plant intermittent CO spikes to 36 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0167,Foundry,North,Site 167: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0168,Foundry,South,Inspection RPT-0168: Foundry stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0169,Steel mill,East,Audit 169 at Steel mill: CO reached 39 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0170,Foundry,North,Inspection RPT-0170: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0171,Foundry,South,Emergency 171: Foundry reading 161 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0172,Foundry,Central,RPT-0172: Foundry intermittent CO spikes to 42 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0173,Cement plant,East,Audit 173 at Cement plant: CO reached 43 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0174,Power station,North,RPT-0174: Power station intermittent CO spikes to 44 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0175,Steel mill,North,Audit 175 at Steel mill: CO reached 45 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0176,Steel mill,South,CRITICAL RPT-0176: Steel mill CO peaked at 166 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0177,Cement plant,South,Emergency 177: Cement plant reading 167 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0178,Steel mill,North,RPT-0178: Steel mill intermittent CO spikes to 48 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0179,Steel mill,West,Audit 179 at Steel mill: CO reached 49 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0180,Power station,Central,RPT-0180: Power station intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0181,Chemical refinery,South,Site 181: Chemical refinery outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0182,Foundry,North,RPT-0182: Foundry intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0183,Cement plant,North,Audit 183 at Cement plant: CO reached 38 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0184,Power station,North,CRITICAL RPT-0184: Power station CO peaked at 174 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0185,Chemical refinery,West,Audit 185 at Chemical refinery: CO reached 40 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0186,Chemical refinery,North,CRITICAL RPT-0186: Chemical refinery CO peaked at 176 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0187,Foundry,North,Site 187: Foundry outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0188,Steel mill,North,CRITICAL RPT-0188: Steel mill CO peaked at 178 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0189,Cement plant,North,Emergency 189: Cement plant reading 179 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0190,Steel mill,Central,RPT-0190: Steel mill intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0191,Power station,Central,Site 191: Power station outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0192,Cement plant,South,RPT-0192: Cement plant intermittent CO spikes to 47 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0193,Foundry,West,Audit 193 at Foundry: CO reached 48 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0194,Steel mill,Central,CRITICAL RPT-0194: Steel mill CO peaked at 184 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0195,Chemical refinery,West,Audit 195 at Chemical refinery: CO reached 35 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0196,Steel mill,South,Inspection RPT-0196: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0197,Foundry,East,Audit 197 at Foundry: CO reached 37 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0198,Cement plant,Central,RPT-0198: Cement plant intermittent CO spikes to 38 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0199,Power station,East,Emergency 199: Power station reading 189 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0200,Foundry,East,CRITICAL RPT-0200: Foundry CO peaked at 190 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0201,Chemical refinery,West,Audit 201 at Chemical refinery: CO reached 41 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0202,Chemical refinery,Central,RPT-0202: Chemical refinery intermittent CO spikes to 42 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0203,Foundry,Central,Site 203: Foundry outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0204,Chemical refinery,West,Inspection RPT-0204: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0205,Power station,North,Emergency 205: Power station reading 195 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0206,Steel mill,Central,CRITICAL RPT-0206: Steel mill CO peaked at 196 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0207,Steel mill,East,Audit 207 at Steel mill: CO reached 47 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0208,Steel mill,South,Inspection RPT-0208: Steel mill stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0209,Cement plant,North,Emergency 209: Cement plant reading 199 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0210,Chemical refinery,Central,CRITICAL RPT-0210: Chemical refinery CO peaked at 200 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0211,Foundry,Central,Audit 211 at Foundry: CO reached 36 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0212,Cement plant,West,Inspection RPT-0212: Cement plant stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0213,Chemical refinery,East,Site 213: Chemical refinery outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0214,Chemical refinery,South,CRITICAL RPT-0214: Chemical refinery CO peaked at 204 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0215,Cement plant,East,Site 215: Cement plant outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0216,Steel mill,Central,RPT-0216: Steel mill intermittent CO spikes to 41 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0217,Cement plant,East,Audit 217 at Cement plant: CO reached 42 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0218,Power station,Central,Inspection RPT-0218: Power station stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0219,Steel mill,East,Audit 219 at Steel mill: CO reached 44 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0220,Steel mill,Central,RPT-0220: Steel mill intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0221,Power station,North,Site 221: Power station outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0222,Chemical refinery,West,Inspection RPT-0222: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0223,Power station,North,Emergency 223: Power station reading 213 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0224,Cement plant,Central,RPT-0224: Cement plant intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0225,Steel mill,West,Audit 225 at Steel mill: CO reached 35 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0226,Steel mill,North,Inspection RPT-0226: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0227,Chemical refinery,South,Audit 227 at Chemical refinery: CO reached 37 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0228,Chemical refinery,South,RPT-0228: Chemical refinery intermittent CO spikes to 38 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0229,Cement plant,West,Site 229: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0230,Power station,Central,CRITICAL RPT-0230: Power station CO peaked at 220 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0231,Foundry,West,Site 231: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0232,Chemical refinery,South,CRITICAL RPT-0232: Chemical refinery CO peaked at 222 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0233,Cement plant,West,Site 233: Cement plant outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0234,Foundry,Central,RPT-0234: Foundry intermittent CO spikes to 44 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0235,Power station,West,Site 235: Power station outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0236,Foundry,South,RPT-0236: Foundry intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0237,Cement plant,South,Audit 237 at Cement plant: CO reached 47 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0238,Power station,Central,Inspection RPT-0238: Power station stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0239,Cement plant,Central,Audit 239 at Cement plant: CO reached 49 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0240,Cement plant,East,Inspection RPT-0240: Cement plant stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0241,Power station,Central,Site 241: Power station outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0242,Steel mill,West,Inspection RPT-0242: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0243,Power station,South,Site 243: Power station outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0244,Chemical refinery,North,Inspection RPT-0244: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0245,Chemical refinery,East,Site 245: Chemical refinery outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0246,Foundry,West,CRITICAL RPT-0246: Foundry CO peaked at 156 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0247,Foundry,North,Site 247: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0248,Cement plant,East,Inspection RPT-0248: Cement plant stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0249,Cement plant,North,Emergency 249: Cement plant reading 159 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0250,Steel mill,South,RPT-0250: Steel mill intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0251,Foundry,East,Emergency 251: Foundry reading 161 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0252,Steel mill,North,Inspection RPT-0252: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0253,Chemical refinery,North,Audit 253 at Chemical refinery: CO reached 48 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0254,Chemical refinery,Central,Inspection RPT-0254: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0255,Cement plant,Central,Site 255: Cement plant outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0256,Chemical refinery,Central,RPT-0256: Chemical refinery intermittent CO spikes to 36 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0257,Cement plant,North,Audit 257 at Cement plant: CO reached 37 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0258,Power station,Central,RPT-0258: Power station intermittent CO spikes to 38 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0259,Steel mill,North,Site 259: Steel mill outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0260,Chemical refinery,Central,Inspection RPT-0260: Chemical refinery stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0261,Chemical refinery,North,Site 261: Chemical refinery outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0262,Steel mill,East,Inspection RPT-0262: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0263,Chemical refinery,North,Emergency 263: Chemical refinery reading 173 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0264,Chemical refinery,West,CRITICAL RPT-0264: Chemical refinery CO peaked at 174 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0265,Cement plant,Central,Emergency 265: Cement plant reading 175 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0266,Steel mill,West,CRITICAL RPT-0266: Steel mill CO peaked at 176 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0267,Foundry,South,Audit 267 at Foundry: CO reached 47 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0268,Cement plant,West,RPT-0268: Cement plant intermittent CO spikes to 48 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0269,Foundry,North,Emergency 269: Foundry reading 179 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0270,Steel mill,Central,Inspection RPT-0270: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0271,Chemical refinery,West,Site 271: Chemical refinery outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0272,Cement plant,East,Inspection RPT-0272: Cement plant stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0273,Chemical refinery,South,Audit 273 at Chemical refinery: CO reached 38 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0274,Foundry,North,Inspection RPT-0274: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0275,Chemical refinery,North,Emergency 275: Chemical refinery reading 185 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0276,Foundry,South,CRITICAL RPT-0276: Foundry CO peaked at 186 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0277,Cement plant,West,Site 277: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0278,Cement plant,West,Inspection RPT-0278: Cement plant stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0279,Foundry,Central,Emergency 279: Foundry reading 189 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0280,Cement plant,Central,RPT-0280: Cement plant intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0281,Cement plant,East,Audit 281 at Cement plant: CO reached 46 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0282,Foundry,Central,Inspection RPT-0282: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0283,Cement plant,South,Site 283: Cement plant outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0284,Foundry,South,RPT-0284: Foundry intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0285,Cement plant,Central,Site 285: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0286,Cement plant,South,RPT-0286: Cement plant intermittent CO spikes to 36 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0287,Foundry,East,Emergency 287: Foundry reading 197 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0288,Steel mill,North,RPT-0288: Steel mill intermittent CO spikes to 38 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0289,Cement plant,South,Site 289: Cement plant outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0290,Steel mill,West,CRITICAL RPT-0290: Steel mill CO peaked at 200 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0291,Power station,East,Site 291: Power station outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0292,Cement plant,North,CRITICAL RPT-0292: Cement plant CO peaked at 202 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0293,Cement plant,Central,Site 293: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0294,Foundry,Central,Inspection RPT-0294: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0295,Foundry,South,Site 295: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0296,Cement plant,East,RPT-0296: Cement plant intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0297,Steel mill,West,Audit 297 at Steel mill: CO reached 47 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0298,Cement plant,Central,RPT-0298: Cement plant intermittent CO spikes to 48 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0299,Power station,East,Audit 299 at Power station: CO reached 49 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0300,Cement plant,West,CRITICAL RPT-0300: Cement plant CO peaked at 210 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0301,Power station,South,Site 301: Power station outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0302,Cement plant,North,Inspection RPT-0302: Cement plant stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0303,Chemical refinery,South,Emergency 303: Chemical refinery reading 213 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0304,Cement plant,North,CRITICAL RPT-0304: Cement plant CO peaked at 214 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0305,Cement plant,West,Emergency 305: Cement plant reading 215 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0306,Foundry,East,RPT-0306: Foundry intermittent CO spikes to 41 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0307,Power station,West,Emergency 307: Power station reading 217 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0308,Power station,Central,CRITICAL RPT-0308: Power station CO peaked at 218 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0309,Power station,West,Audit 309 at Power station: CO reached 44 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0310,Foundry,Central,CRITICAL RPT-0310: Foundry CO peaked at 220 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0311,Foundry,North,Audit 311 at Foundry: CO reached 46 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0312,Foundry,West,Inspection RPT-0312: Foundry stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0313,Steel mill,South,Emergency 313: Steel mill reading 223 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0314,Foundry,North,RPT-0314: Foundry intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0315,Foundry,North,Site 315: Foundry outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0316,Cement plant,West,Inspection RPT-0316: Cement plant stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0317,Chemical refinery,East,Emergency 317: Chemical refinery reading 227 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0318,Power station,East,Inspection RPT-0318: Power station stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0319,Foundry,Central,Emergency 319: Foundry reading 229 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0320,Cement plant,West,RPT-0320: Cement plant intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0321,Steel mill,North,Audit 321 at Steel mill: CO reached 41 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0322,Cement plant,Central,CRITICAL RPT-0322: Cement plant CO peaked at 152 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0323,Cement plant,East,Site 323: Cement plant outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0324,Power station,West,Inspection RPT-0324: Power station stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0325,Foundry,South,Emergency 325: Foundry reading 155 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0326,Power station,East,Inspection RPT-0326: Power station stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0327,Cement plant,North,Audit 327 at Cement plant: CO reached 47 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0328,Steel mill,West,Inspection RPT-0328: Steel mill stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0329,Chemical refinery,West,Site 329: Chemical refinery outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0330,Foundry,South,RPT-0330: Foundry intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0331,Power station,North,Audit 331 at Power station: CO reached 36 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0332,Cement plant,Central,CRITICAL RPT-0332: Cement plant CO peaked at 162 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0333,Cement plant,South,Site 333: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0334,Cement plant,North,CRITICAL RPT-0334: Cement plant CO peaked at 164 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0335,Power station,West,Site 335: Power station outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0336,Chemical refinery,North,RPT-0336: Chemical refinery intermittent CO spikes to 41 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0337,Cement plant,North,Emergency 337: Cement plant reading 167 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0338,Foundry,North,CRITICAL RPT-0338: Foundry CO peaked at 168 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0339,Power station,West,Audit 339 at Power station: CO reached 44 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0340,Foundry,Central,CRITICAL RPT-0340: Foundry CO peaked at 170 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0341,Power station,Central,Site 341: Power station outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0342,Power station,West,RPT-0342: Power station intermittent CO spikes to 47 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0343,Steel mill,North,Audit 343 at Steel mill: CO reached 48 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0344,Cement plant,East,CRITICAL RPT-0344: Cement plant CO peaked at 174 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0345,Foundry,South,Audit 345 at Foundry: CO reached 35 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0346,Steel mill,North,Inspection RPT-0346: Steel mill stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0347,Chemical refinery,North,Site 347: Chemical refinery outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0348,Foundry,East,CRITICAL RPT-0348: Foundry CO peaked at 178 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0349,Chemical refinery,North,Emergency 349: Chemical refinery reading 179 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0350,Steel mill,South,RPT-0350: Steel mill intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0351,Cement plant,Central,Audit 351 at Cement plant: CO reached 41 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0352,Foundry,Central,RPT-0352: Foundry intermittent CO spikes to 42 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0353,Cement plant,Central,Emergency 353: Cement plant reading 183 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0354,Chemical refinery,North,CRITICAL RPT-0354: Chemical refinery CO peaked at 184 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0355,Chemical refinery,West,Site 355: Chemical refinery outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0356,Steel mill,Central,CRITICAL RPT-0356: Steel mill CO peaked at 186 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0357,Steel mill,South,Site 357: Steel mill outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0358,Steel mill,East,RPT-0358: Steel mill intermittent CO spikes to 48 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0359,Chemical refinery,Central,Audit 359 at Chemical refinery: CO reached 49 ppm when secondary burner cycled. Filters overdue by 8 weeks.,Medium
+RPT-0360,Cement plant,Central,RPT-0360: Cement plant intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0361,Steel mill,Central,Site 361: Steel mill outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0362,Steel mill,Central,RPT-0362: Steel mill intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0363,Chemical refinery,East,Audit 363 at Chemical refinery: CO reached 38 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0364,Chemical refinery,Central,RPT-0364: Chemical refinery intermittent CO spikes to 39 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0365,Chemical refinery,Central,Emergency 365: Chemical refinery reading 195 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0366,Foundry,West,RPT-0366: Foundry intermittent CO spikes to 41 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0367,Power station,Central,Emergency 367: Power station reading 197 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0368,Cement plant,South,RPT-0368: Cement plant intermittent CO spikes to 43 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0369,Steel mill,West,Site 369: Steel mill outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0370,Steel mill,South,RPT-0370: Steel mill intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0371,Foundry,West,Emergency 371: Foundry reading 201 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0372,Steel mill,Central,Inspection RPT-0372: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0373,Cement plant,South,Site 373: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0374,Chemical refinery,North,Inspection RPT-0374: Chemical refinery stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0375,Chemical refinery,Central,Site 375: Chemical refinery outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0376,Chemical refinery,North,CRITICAL RPT-0376: Chemical refinery CO peaked at 206 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0377,Chemical refinery,Central,Site 377: Chemical refinery outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0378,Foundry,South,CRITICAL RPT-0378: Foundry CO peaked at 208 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0379,Cement plant,East,Site 379: Cement plant outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0380,Power station,North,CRITICAL RPT-0380: Power station CO peaked at 210 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0381,Cement plant,West,Audit 381 at Cement plant: CO reached 41 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0382,Foundry,West,CRITICAL RPT-0382: Foundry CO peaked at 212 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0383,Power station,North,Emergency 383: Power station reading 213 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0384,Foundry,East,Inspection RPT-0384: Foundry stack CO averaged 10 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0385,Foundry,South,Audit 385 at Foundry: CO reached 45 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0386,Foundry,East,RPT-0386: Foundry intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0387,Steel mill,East,Emergency 387: Steel mill reading 217 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0388,Steel mill,West,Inspection RPT-0388: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0389,Foundry,Central,Emergency 389: Foundry reading 219 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0390,Foundry,Central,Inspection RPT-0390: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0391,Steel mill,East,Emergency 391: Steel mill reading 221 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0392,Chemical refinery,East,RPT-0392: Chemical refinery intermittent CO spikes to 37 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0393,Power station,South,Site 393: Power station outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0394,Chemical refinery,East,RPT-0394: Chemical refinery intermittent CO spikes to 39 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0395,Cement plant,South,Audit 395 at Cement plant: CO reached 40 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0396,Steel mill,North,Inspection RPT-0396: Steel mill stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0397,Cement plant,West,Emergency 397: Cement plant reading 227 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0398,Foundry,West,Inspection RPT-0398: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0399,Foundry,East,Site 399: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0400,Power station,Central,RPT-0400: Power station intermittent CO spikes to 45 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0401,Chemical refinery,South,Emergency 401: Chemical refinery reading 151 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0402,Steel mill,Central,CRITICAL RPT-0402: Steel mill CO peaked at 152 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0403,Cement plant,North,Site 403: Cement plant outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0404,Power station,Central,Inspection RPT-0404: Power station stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0405,Steel mill,North,Site 405: Steel mill outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0406,Foundry,East,CRITICAL RPT-0406: Foundry CO peaked at 156 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0407,Power station,North,Emergency 407: Power station reading 157 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0408,Foundry,East,CRITICAL RPT-0408: Foundry CO peaked at 158 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0409,Steel mill,East,Audit 409 at Steel mill: CO reached 39 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0410,Cement plant,South,Inspection RPT-0410: Cement plant stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0411,Chemical refinery,East,Site 411: Chemical refinery outlet CO 13 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0412,Power station,East,RPT-0412: Power station intermittent CO spikes to 42 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0413,Cement plant,North,Site 413: Cement plant outlet CO 15 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0414,Steel mill,Central,CRITICAL RPT-0414: Steel mill CO peaked at 164 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0415,Foundry,Central,Site 415: Foundry outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0416,Chemical refinery,East,RPT-0416: Chemical refinery intermittent CO spikes to 46 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0417,Cement plant,East,Emergency 417: Cement plant reading 167 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0418,Foundry,North,Inspection RPT-0418: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0419,Chemical refinery,East,Audit 419 at Chemical refinery: CO reached 49 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0420,Foundry,South,RPT-0420: Foundry intermittent CO spikes to 35 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0421,Steel mill,North,Audit 421 at Steel mill: CO reached 36 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0422,Steel mill,North,Inspection RPT-0422: Steel mill stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0423,Power station,Central,Site 423: Power station outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0424,Foundry,West,RPT-0424: Foundry intermittent CO spikes to 39 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0425,Foundry,East,Site 425: Foundry outlet CO 11 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0426,Cement plant,Central,RPT-0426: Cement plant intermittent CO spikes to 41 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0427,Steel mill,West,Emergency 427: Steel mill reading 177 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0428,Foundry,West,Inspection RPT-0428: Foundry stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0429,Steel mill,West,Audit 429 at Steel mill: CO reached 44 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0430,Power station,South,Inspection RPT-0430: Power station stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0431,Cement plant,Central,Emergency 431: Cement plant reading 181 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0432,Chemical refinery,West,CRITICAL RPT-0432: Chemical refinery CO peaked at 182 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0433,Cement plant,East,Audit 433 at Cement plant: CO reached 48 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0434,Chemical refinery,North,RPT-0434: Chemical refinery intermittent CO spikes to 49 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0435,Steel mill,East,Audit 435 at Steel mill: CO reached 35 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0436,Power station,South,RPT-0436: Power station intermittent CO spikes to 36 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0437,Chemical refinery,Central,Emergency 437: Chemical refinery reading 187 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0438,Foundry,North,Inspection RPT-0438: Foundry stack CO averaged 16 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0439,Power station,North,Emergency 439: Power station reading 189 ppm CO in enclosed bay. Sensors tripped; ventilation inadequate.,High
+RPT-0440,Chemical refinery,North,RPT-0440: Chemical refinery intermittent CO spikes to 40 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0441,Chemical refinery,West,Audit 441 at Chemical refinery: CO reached 41 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0442,Foundry,Central,RPT-0442: Foundry intermittent CO spikes to 42 ppm during shift change. Aging ductwork may restrict flow.,Medium
+RPT-0443,Cement plant,West,Audit 443 at Cement plant: CO reached 43 ppm when secondary burner cycled. Filters overdue by 4 weeks.,Medium
+RPT-0444,Power station,South,Inspection RPT-0444: Power station stack CO averaged 14 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low
+RPT-0445,Foundry,West,Audit 445 at Foundry: CO reached 45 ppm when secondary burner cycled. Filters overdue by 6 weeks.,Medium
+RPT-0446,Foundry,Central,CRITICAL RPT-0446: Foundry CO peaked at 196 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0447,Cement plant,North,Site 447: Cement plant outlet CO 17 ppm. Quarterly burner tuning complete. Ventilation adequate per EPA limits.,Low
+RPT-0448,Foundry,North,CRITICAL RPT-0448: Foundry CO peaked at 198 ppm. Failed stack test; cracked heat exchanger identified.,High
+RPT-0449,Foundry,East,Audit 449 at Foundry: CO reached 49 ppm when secondary burner cycled. Filters overdue by 2 weeks.,Medium
+RPT-0450,Foundry,West,Inspection RPT-0450: Foundry stack CO averaged 12 ppm with stable combustion. Scrubbers serviced; no visible leaks.,Low

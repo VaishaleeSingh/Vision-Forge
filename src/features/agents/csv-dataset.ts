@@ -28,7 +28,7 @@ export type CsvDatasetAnalysis = {
   columnCount: number
   columns: CsvColumnAnalysis[]
   suggestedTarget: string | null
-  suggestedProblemType: 'regression' | 'classification' | 'clustering' | 'unknown'
+  suggestedProblemType: 'regression' | 'classification' | 'unknown'
   problemTypeReason: string
   qualityIssues: string[]
   recommendations: string[]
@@ -40,13 +40,13 @@ export type ParsedCsv = {
   headers: string[]
   rows: string[][] // sample rows for preview / context
   totalRows: number
-  columnStats: { name: string; sample: string; nonEmpty: number }[]
   analysis: CsvDatasetAnalysis
 }
 
 const TARGET_NAME_HINTS = [
-  'target', 'label', 'class', 'outcome', 'y', 'price', 'salary', 'churn',
-  'survived', 'default', 'fraud', 'diagnosis', 'rating', 'score', 'revenue',
+  'target', 'label', 'class', 'outcome', 'y', 'churned', 'churn',
+  'co_risk_level', 'risk_level', 'risk', 'loan_default', 'is_fraud',
+  'defect_severity', 'phishing_label', 'fraud', 'default',
 ]
 
 const ID_NAME_HINTS = ['id', 'uuid', 'index', 'row_id', 'customer_id', 'user_id']
@@ -411,25 +411,11 @@ export function parseCsvContent(text: string, fileName: string, userGoal = ''): 
   const totalRows = text.split(/\r?\n/).filter((l) => l.trim()).length - 1
   const analysis = analyzeCsvDataset(fileName, headers, dataRows, Math.max(0, totalRows), userGoal)
 
-  const columnStats = analysis.columns.map((c) => {
-    const hint = c.kind
-    const detail =
-      c.numeric != null
-        ? `min=${c.numeric.min}, max=${c.numeric.max}, mean=${c.numeric.mean}`
-        : c.categorical?.topValues.slice(0, 2).map((t) => t.value).join(', ') || c.sampleValues.join(', ')
-    return {
-      name: c.name,
-      sample: `${detail || '(empty)'} [${hint}${c.likelyTarget ? ', TARGET?' : ''}]`,
-      nonEmpty: c.nonEmpty,
-    }
-  })
-
   return {
     fileName,
     headers,
     rows: dataRows.slice(0, 25),
     totalRows: Math.max(0, totalRows),
-    columnStats,
     analysis,
   }
 }
@@ -507,15 +493,3 @@ ${sampleRows}
 **Instructions for agents:** Reference actual column names, missing percentages, target column, and problem type from the profile above. Tailor preprocessing, model choice, metrics, and code to this dataset.`
 }
 
-export async function readCsvFile(file: File, userGoal = ''): Promise<ParsedCsv> {
-  const maxBytes = 5 * 1024 * 1024
-  if (file.size > maxBytes) {
-    throw new Error('CSV must be 5MB or smaller')
-  }
-  if (!file.name.toLowerCase().endsWith('.csv')) {
-    throw new Error('Only .csv files are supported')
-  }
-
-  const text = await file.text()
-  return parseCsvContent(text, file.name, userGoal)
-}

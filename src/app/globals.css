@@ -325,6 +325,49 @@ h4, h5, h6, p, span, a, button, input, textarea, select {
   max-width: 100%;
 }
 
+/* IDE-style code (markdown output + inline references) */
+.vf-code-block pre {
+  background: #1e1e1e !important;
+  margin: 0 !important;
+}
+
+.vf-inline-code,
+.rich-text-output :not(pre) > code,
+.rich-text-output p code,
+.rich-text-output li code,
+.rich-text-output td code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+  background: #1e1e1e;
+  color: #9cdcfe;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.88em;
+}
+
+/* Tiptap / prose code in editor output */
+.rich-text-editor pre {
+  background: #1e1e1e !important;
+  color: #d4d4d4 !important;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  padding: 12px 14px !important;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+}
+
+.rich-text-editor code {
+  background: #1e1e1e;
+  color: #ce9178;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
 .stat-card {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);

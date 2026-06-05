@@ -16,6 +16,8 @@ export interface IDocument extends Document {
   extractedText?: string
   embeddingProvider?: EmbeddingProviderId
   errorMessage?: string
+  ragEval?: Record<string, unknown>
+  ragEvaluatedAt?: Date
   createdAt: Date
   updatedAt: Date
 }
@@ -35,6 +37,8 @@ const DocumentSchema = new Schema<IDocument>(
       enum: ['gemini', 'huggingface-bge'],
     },
     errorMessage: { type: String },
+    ragEval: { type: Schema.Types.Mixed },
+    ragEvaluatedAt: { type: Date },
   },
   { timestamps: true }
 )

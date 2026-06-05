@@ -1,0 +1,501 @@
+email_id,sender_domain,email_body,phishing_label
+EM-0001,account-alert-secure.com,Invoice INV-8001 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0002,account-alert-secure.com,Security alert #2: unusual sign-in detected in region 3. Reset your banking PIN now before funds are locked.,Phishing
+EM-0003,shop-retail.com,Project kickoff notes for initiative P-3 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0004,shop-retail.com,IT ticket #1004 resolved. Your laptop patch KB-4 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0005,university.edu,"Hi team, sprint 6 review is scheduled for Monday at 6pm in conference room F. Agenda attached.",Legitimate
+EM-0006,account-alert-secure.com,Invoice INV-8006 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0007,secure-login-update.net,Security alert #7: unusual sign-in detected in region 8. Reset your banking PIN now before funds are locked.,Phishing
+EM-0008,secure-login-update.net,Congratulations! Prize code WIN-8 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0009,shop-retail.com,IT ticket #1009 resolved. Your laptop patch KB-9 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0010,university.edu,"Hi team, sprint 11 review is scheduled for Monday at 11pm in conference room E. Agenda attached.",Legitimate
+EM-0011,account-alert-secure.com,Invoice INV-8011 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0012,secure-login-update.net,Security alert #12: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0013,shop-retail.com,Project kickoff notes for initiative P-13 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0014,account-alert-secure.com,Mailbox 14: Your subscription payment failed. Update billing at bank-verify-now.io within 3 hours or lose access.,Phishing
+EM-0015,account-alert-secure.com,URGENT EM-0015: Account user-15 suspended in 16 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0016,university.edu,Your order #48016 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0017,secure-login-update.net,Security alert #17: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0018,company.com,Project kickoff notes for initiative P-18 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0019,company.com,IT ticket #1019 resolved. Your laptop patch KB-19 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0020,shop-retail.com,"Hi team, sprint 9 review is scheduled for Monday at 10pm in conference room C. Agenda attached.",Legitimate
+EM-0021,university.edu,Your order #48021 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0022,shop-retail.com,Reminder REF-22: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0023,account-alert-secure.com,Congratulations! Prize code WIN-23 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0024,university.edu,IT ticket #1024 resolved. Your laptop patch KB-24 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0025,hr-portal.org,"Hi team, sprint 2 review is scheduled for Monday at 4pm in conference room B. Agenda attached.",Legitimate
+EM-0026,secure-login-update.net,Invoice INV-8026 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0027,account-alert-secure.com,Security alert #27: unusual sign-in detected in region 1. Reset your banking PIN now before funds are locked.,Phishing
+EM-0028,hr-portal.org,Project kickoff notes for initiative P-28 are in /shared/projects/28. Please review action items by EOD.,Legitimate
+EM-0029,university.edu,IT ticket #1029 resolved. Your laptop patch KB-29 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0030,secure-login-update.net,URGENT EM-0030: Account user-30 suspended in 31 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0031,company.com,Your order #48031 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0032,account-alert-secure.com,Security alert #32: unusual sign-in detected in region 6. Reset your banking PIN now before funds are locked.,Phishing
+EM-0033,university.edu,Project kickoff notes for initiative P-33 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0034,hr-portal.org,IT ticket #1034 resolved. Your laptop patch KB-34 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0035,shop-retail.com,"Hi team, sprint 12 review is scheduled for Monday at 3pm in conference room F. Agenda attached.",Legitimate
+EM-0036,hr-portal.org,Your order #48036 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0037,secure-login-update.net,Security alert #37: unusual sign-in detected in region 2. Reset your banking PIN now before funds are locked.,Phishing
+EM-0038,university.edu,Project kickoff notes for initiative P-38 are in /shared/projects/38. Please review action items by EOD.,Legitimate
+EM-0039,university.edu,IT ticket #1039 resolved. Your laptop patch KB-39 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0040,bank-verify-now.io,URGENT EM-0040: Account user-40 suspended in 41 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0041,secure-login-update.net,Invoice INV-8041 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0042,hr-portal.org,Reminder REF-42: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0043,university.edu,Project kickoff notes for initiative P-43 are in /shared/projects/43. Please review action items by EOD.,Legitimate
+EM-0044,university.edu,IT ticket #1044 resolved. Your laptop patch KB-44 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0045,secure-login-update.net,URGENT EM-0045: Account user-45 suspended in 46 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0046,hr-portal.org,Your order #48046 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0047,company.com,Reminder REF-47: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0048,shop-retail.com,Project kickoff notes for initiative P-48 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0049,account-alert-secure.com,Mailbox 49: Your subscription payment failed. Update billing at bank-verify-now.io within 2 hours or lose access.,Phishing
+EM-0050,shop-retail.com,"Hi team, sprint 3 review is scheduled for Monday at 7pm in conference room C. Agenda attached.",Legitimate
+EM-0051,secure-login-update.net,Invoice INV-8051 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0052,company.com,Reminder REF-52: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0053,university.edu,Project kickoff notes for initiative P-53 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0054,company.com,IT ticket #1054 resolved. Your laptop patch KB-54 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0055,shop-retail.com,"Hi team, sprint 8 review is scheduled for Monday at 1pm in conference room B. Agenda attached.",Legitimate
+EM-0056,hr-portal.org,Your order #48056 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0057,bank-verify-now.io,Security alert #57: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0058,hr-portal.org,Project kickoff notes for initiative P-58 are in /shared/projects/8. Please review action items by EOD.,Legitimate
+EM-0059,hr-portal.org,IT ticket #1059 resolved. Your laptop patch KB-59 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0060,account-alert-secure.com,URGENT EM-0060: Account user-60 suspended in 14 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0061,invoice-pay-center.biz,Invoice INV-8061 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0062,account-alert-secure.com,Security alert #62: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0063,hr-portal.org,Project kickoff notes for initiative P-63 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0064,secure-login-update.net,Mailbox 64: Your subscription payment failed. Update billing at bank-verify-now.io within 5 hours or lose access.,Phishing
+EM-0065,bank-verify-now.io,URGENT EM-0065: Account user-65 suspended in 19 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0066,shop-retail.com,Your order #48066 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0067,university.edu,Reminder REF-67: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0068,company.com,Project kickoff notes for initiative P-68 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0069,company.com,IT ticket #1069 resolved. Your laptop patch KB-69 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0070,shop-retail.com,"Hi team, sprint 11 review is scheduled for Monday at 5pm in conference room E. Agenda attached.",Legitimate
+EM-0071,secure-login-update.net,Invoice INV-8071 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0072,hr-portal.org,Reminder REF-72: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0073,hr-portal.org,Project kickoff notes for initiative P-73 are in /shared/projects/23. Please review action items by EOD.,Legitimate
+EM-0074,bank-verify-now.io,Mailbox 74: Your subscription payment failed. Update billing at bank-verify-now.io within 3 hours or lose access.,Phishing
+EM-0075,university.edu,"Hi team, sprint 4 review is scheduled for Monday at 10pm in conference room D. Agenda attached.",Legitimate
+EM-0076,hr-portal.org,Your order #48076 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0077,university.edu,Reminder REF-77: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0078,secure-login-update.net,Congratulations! Prize code WIN-78 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0079,hr-portal.org,IT ticket #1079 resolved. Your laptop patch KB-79 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0080,bank-verify-now.io,URGENT EM-0080: Account user-80 suspended in 34 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0081,secure-login-update.net,Invoice INV-8081 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0082,company.com,Reminder REF-82: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0083,bank-verify-now.io,Congratulations! Prize code WIN-83 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0084,account-alert-secure.com,Mailbox 84: Your subscription payment failed. Update billing at bank-verify-now.io within 1 hours or lose access.,Phishing
+EM-0085,invoice-pay-center.biz,URGENT EM-0085: Account user-85 suspended in 39 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0086,invoice-pay-center.biz,Invoice INV-8086 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0087,university.edu,Reminder REF-87: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0088,shop-retail.com,Project kickoff notes for initiative P-88 are in /shared/projects/38. Please review action items by EOD.,Legitimate
+EM-0089,secure-login-update.net,Mailbox 89: Your subscription payment failed. Update billing at bank-verify-now.io within 6 hours or lose access.,Phishing
+EM-0090,shop-retail.com,"Hi team, sprint 7 review is scheduled for Monday at 3pm in conference room A. Agenda attached.",Legitimate
+EM-0091,hr-portal.org,Your order #48091 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0092,bank-verify-now.io,Security alert #92: unusual sign-in detected in region 3. Reset your banking PIN now before funds are locked.,Phishing
+EM-0093,university.edu,Project kickoff notes for initiative P-93 are in /shared/projects/43. Please review action items by EOD.,Legitimate
+EM-0094,bank-verify-now.io,Mailbox 94: Your subscription payment failed. Update billing at bank-verify-now.io within 11 hours or lose access.,Phishing
+EM-0095,shop-retail.com,"Hi team, sprint 12 review is scheduled for Monday at 8pm in conference room F. Agenda attached.",Legitimate
+EM-0096,company.com,Your order #48096 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0097,company.com,Reminder REF-97: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0098,company.com,Project kickoff notes for initiative P-98 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0099,bank-verify-now.io,Mailbox 99: Your subscription payment failed. Update billing at bank-verify-now.io within 4 hours or lose access.,Phishing
+EM-0100,secure-login-update.net,URGENT EM-0100: Account user-100 suspended in 7 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0101,university.edu,Your order #48101 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0102,shop-retail.com,Reminder REF-102: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0103,shop-retail.com,Project kickoff notes for initiative P-103 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0104,account-alert-secure.com,Mailbox 104: Your subscription payment failed. Update billing at bank-verify-now.io within 9 hours or lose access.,Phishing
+EM-0105,university.edu,"Hi team, sprint 10 review is scheduled for Monday at 7pm in conference room D. Agenda attached.",Legitimate
+EM-0106,bank-verify-now.io,Invoice INV-8106 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0107,company.com,Reminder REF-107: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0108,invoice-pay-center.biz,Congratulations! Prize code WIN-108 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0109,company.com,IT ticket #1109 resolved. Your laptop patch KB-109 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0110,shop-retail.com,"Hi team, sprint 3 review is scheduled for Monday at 1pm in conference room C. Agenda attached.",Legitimate
+EM-0111,invoice-pay-center.biz,Invoice INV-8111 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0112,bank-verify-now.io,Security alert #112: unusual sign-in detected in region 5. Reset your banking PIN now before funds are locked.,Phishing
+EM-0113,shop-retail.com,Project kickoff notes for initiative P-113 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0114,bank-verify-now.io,Mailbox 114: Your subscription payment failed. Update billing at bank-verify-now.io within 7 hours or lose access.,Phishing
+EM-0115,shop-retail.com,"Hi team, sprint 8 review is scheduled for Monday at 6pm in conference room B. Agenda attached.",Legitimate
+EM-0116,shop-retail.com,Your order #48116 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0117,university.edu,Reminder REF-117: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0118,university.edu,Project kickoff notes for initiative P-118 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0119,bank-verify-now.io,Mailbox 119: Your subscription payment failed. Update billing at bank-verify-now.io within 12 hours or lose access.,Phishing
+EM-0120,bank-verify-now.io,URGENT EM-0120: Account user-120 suspended in 27 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0121,invoice-pay-center.biz,Invoice INV-8121 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0122,shop-retail.com,Reminder REF-122: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0123,invoice-pay-center.biz,Congratulations! Prize code WIN-123 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0124,university.edu,IT ticket #1124 resolved. Your laptop patch KB-124 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0125,bank-verify-now.io,URGENT EM-0125: Account user-125 suspended in 32 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0126,shop-retail.com,Your order #48126 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0127,bank-verify-now.io,Security alert #127: unusual sign-in detected in region 2. Reset your banking PIN now before funds are locked.,Phishing
+EM-0128,invoice-pay-center.biz,Congratulations! Prize code WIN-128 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0129,university.edu,IT ticket #1129 resolved. Your laptop patch KB-129 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0130,university.edu,"Hi team, sprint 11 review is scheduled for Monday at 10pm in conference room E. Agenda attached.",Legitimate
+EM-0131,shop-retail.com,Your order #48131 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0132,account-alert-secure.com,Security alert #132: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0133,hr-portal.org,Project kickoff notes for initiative P-133 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0134,company.com,IT ticket #1134 resolved. Your laptop patch KB-134 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0135,university.edu,"Hi team, sprint 4 review is scheduled for Monday at 4pm in conference room D. Agenda attached.",Legitimate
+EM-0136,account-alert-secure.com,Invoice INV-8136 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0137,hr-portal.org,Reminder REF-137: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0138,invoice-pay-center.biz,Congratulations! Prize code WIN-138 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0139,account-alert-secure.com,Mailbox 139: Your subscription payment failed. Update billing at bank-verify-now.io within 8 hours or lose access.,Phishing
+EM-0140,invoice-pay-center.biz,URGENT EM-0140: Account user-140 suspended in 47 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0141,university.edu,Your order #48141 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0142,company.com,Reminder REF-142: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0143,account-alert-secure.com,Congratulations! Prize code WIN-143 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0144,account-alert-secure.com,Mailbox 144: Your subscription payment failed. Update billing at bank-verify-now.io within 1 hours or lose access.,Phishing
+EM-0145,shop-retail.com,"Hi team, sprint 2 review is scheduled for Monday at 3pm in conference room B. Agenda attached.",Legitimate
+EM-0146,hr-portal.org,Your order #48146 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0147,company.com,Reminder REF-147: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0148,company.com,Project kickoff notes for initiative P-148 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0149,shop-retail.com,IT ticket #1149 resolved. Your laptop patch KB-149 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0150,company.com,"Hi team, sprint 7 review is scheduled for Monday at 8pm in conference room A. Agenda attached.",Legitimate
+EM-0151,account-alert-secure.com,Invoice INV-8151 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0152,company.com,Reminder REF-152: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0153,shop-retail.com,Project kickoff notes for initiative P-153 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0154,invoice-pay-center.biz,Mailbox 154: Your subscription payment failed. Update billing at bank-verify-now.io within 11 hours or lose access.,Phishing
+EM-0155,hr-portal.org,"Hi team, sprint 12 review is scheduled for Monday at 2pm in conference room F. Agenda attached.",Legitimate
+EM-0156,shop-retail.com,Your order #48156 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0157,invoice-pay-center.biz,Security alert #157: unusual sign-in detected in region 5. Reset your banking PIN now before funds are locked.,Phishing
+EM-0158,bank-verify-now.io,Congratulations! Prize code WIN-158 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0159,shop-retail.com,IT ticket #1159 resolved. Your laptop patch KB-159 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0160,bank-verify-now.io,URGENT EM-0160: Account user-160 suspended in 20 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0161,account-alert-secure.com,Invoice INV-8161 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0162,company.com,Reminder REF-162: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0163,secure-login-update.net,Congratulations! Prize code WIN-163 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0164,invoice-pay-center.biz,Mailbox 164: Your subscription payment failed. Update billing at bank-verify-now.io within 9 hours or lose access.,Phishing
+EM-0165,secure-login-update.net,URGENT EM-0165: Account user-165 suspended in 25 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0166,university.edu,Your order #48166 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0167,university.edu,Reminder REF-167: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0168,bank-verify-now.io,Congratulations! Prize code WIN-168 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0169,invoice-pay-center.biz,Mailbox 169: Your subscription payment failed. Update billing at bank-verify-now.io within 2 hours or lose access.,Phishing
+EM-0170,hr-portal.org,"Hi team, sprint 3 review is scheduled for Monday at 6pm in conference room C. Agenda attached.",Legitimate
+EM-0171,account-alert-secure.com,Invoice INV-8171 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0172,account-alert-secure.com,Security alert #172: unusual sign-in detected in region 2. Reset your banking PIN now before funds are locked.,Phishing
+EM-0173,hr-portal.org,Project kickoff notes for initiative P-173 are in /shared/projects/23. Please review action items by EOD.,Legitimate
+EM-0174,company.com,IT ticket #1174 resolved. Your laptop patch KB-174 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0175,university.edu,"Hi team, sprint 8 review is scheduled for Monday at 11pm in conference room B. Agenda attached.",Legitimate
+EM-0176,university.edu,Your order #48176 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0177,account-alert-secure.com,Security alert #177: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0178,shop-retail.com,Project kickoff notes for initiative P-178 are in /shared/projects/28. Please review action items by EOD.,Legitimate
+EM-0179,university.edu,IT ticket #1179 resolved. Your laptop patch KB-179 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0180,shop-retail.com,"Hi team, sprint 1 review is scheduled for Monday at 5pm in conference room A. Agenda attached.",Legitimate
+EM-0181,university.edu,Your order #48181 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0182,university.edu,Reminder REF-182: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0183,bank-verify-now.io,Congratulations! Prize code WIN-183 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0184,company.com,IT ticket #1184 resolved. Your laptop patch KB-184 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0185,account-alert-secure.com,URGENT EM-0185: Account user-185 suspended in 45 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0186,university.edu,Your order #48186 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0187,shop-retail.com,Reminder REF-187: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0188,shop-retail.com,Project kickoff notes for initiative P-188 are in /shared/projects/38. Please review action items by EOD.,Legitimate
+EM-0189,shop-retail.com,IT ticket #1189 resolved. Your laptop patch KB-189 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0190,account-alert-secure.com,URGENT EM-0190: Account user-190 suspended in 3 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0191,account-alert-secure.com,Invoice INV-8191 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0192,bank-verify-now.io,Security alert #192: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0193,secure-login-update.net,Congratulations! Prize code WIN-193 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0194,company.com,IT ticket #1194 resolved. Your laptop patch KB-194 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0195,shop-retail.com,"Hi team, sprint 4 review is scheduled for Monday at 9pm in conference room D. Agenda attached.",Legitimate
+EM-0196,company.com,Your order #48196 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0197,university.edu,Reminder REF-197: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0198,secure-login-update.net,Congratulations! Prize code WIN-198 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0199,shop-retail.com,IT ticket #1199 resolved. Your laptop patch KB-199 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0200,shop-retail.com,"Hi team, sprint 9 review is scheduled for Monday at 3pm in conference room C. Agenda attached.",Legitimate
+EM-0201,invoice-pay-center.biz,Invoice INV-8201 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0202,hr-portal.org,Reminder REF-202: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0203,hr-portal.org,Project kickoff notes for initiative P-203 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0204,account-alert-secure.com,Mailbox 204: Your subscription payment failed. Update billing at bank-verify-now.io within 1 hours or lose access.,Phishing
+EM-0205,hr-portal.org,"Hi team, sprint 2 review is scheduled for Monday at 8pm in conference room B. Agenda attached.",Legitimate
+EM-0206,hr-portal.org,Your order #48206 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0207,company.com,Reminder REF-207: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0208,shop-retail.com,Project kickoff notes for initiative P-208 are in /shared/projects/8. Please review action items by EOD.,Legitimate
+EM-0209,shop-retail.com,IT ticket #1209 resolved. Your laptop patch KB-9 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0210,university.edu,"Hi team, sprint 7 review is scheduled for Monday at 2pm in conference room A. Agenda attached.",Legitimate
+EM-0211,hr-portal.org,Your order #48211 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0212,shop-retail.com,Reminder REF-212: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0213,company.com,Project kickoff notes for initiative P-213 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0214,company.com,IT ticket #1214 resolved. Your laptop patch KB-14 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0215,bank-verify-now.io,URGENT EM-0215: Account user-215 suspended in 28 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0216,university.edu,Your order #48216 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0217,bank-verify-now.io,Security alert #217: unusual sign-in detected in region 2. Reset your banking PIN now before funds are locked.,Phishing
+EM-0218,hr-portal.org,Project kickoff notes for initiative P-218 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0219,secure-login-update.net,Mailbox 219: Your subscription payment failed. Update billing at bank-verify-now.io within 4 hours or lose access.,Phishing
+EM-0220,company.com,"Hi team, sprint 5 review is scheduled for Monday at 1pm in conference room E. Agenda attached.",Legitimate
+EM-0221,hr-portal.org,Your order #48221 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0222,university.edu,Reminder REF-222: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0223,invoice-pay-center.biz,Congratulations! Prize code WIN-223 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0224,bank-verify-now.io,Mailbox 224: Your subscription payment failed. Update billing at bank-verify-now.io within 9 hours or lose access.,Phishing
+EM-0225,hr-portal.org,"Hi team, sprint 10 review is scheduled for Monday at 6pm in conference room D. Agenda attached.",Legitimate
+EM-0226,company.com,Your order #48226 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0227,hr-portal.org,Reminder REF-227: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0228,secure-login-update.net,Congratulations! Prize code WIN-228 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0229,company.com,IT ticket #1229 resolved. Your laptop patch KB-29 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0230,hr-portal.org,"Hi team, sprint 3 review is scheduled for Monday at 11pm in conference room C. Agenda attached.",Legitimate
+EM-0231,hr-portal.org,Your order #48231 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0232,bank-verify-now.io,Security alert #232: unusual sign-in detected in region 8. Reset your banking PIN now before funds are locked.,Phishing
+EM-0233,invoice-pay-center.biz,Congratulations! Prize code WIN-233 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0234,invoice-pay-center.biz,Mailbox 234: Your subscription payment failed. Update billing at bank-verify-now.io within 7 hours or lose access.,Phishing
+EM-0235,university.edu,"Hi team, sprint 8 review is scheduled for Monday at 5pm in conference room B. Agenda attached.",Legitimate
+EM-0236,company.com,Your order #48236 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0237,bank-verify-now.io,Security alert #237: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0238,secure-login-update.net,Congratulations! Prize code WIN-238 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0239,university.edu,IT ticket #1239 resolved. Your laptop patch KB-39 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0240,shop-retail.com,"Hi team, sprint 1 review is scheduled for Monday at 10pm in conference room A. Agenda attached.",Legitimate
+EM-0241,university.edu,Your order #48241 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0242,account-alert-secure.com,Security alert #242: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0243,account-alert-secure.com,Congratulations! Prize code WIN-243 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0244,account-alert-secure.com,Mailbox 244: Your subscription payment failed. Update billing at bank-verify-now.io within 5 hours or lose access.,Phishing
+EM-0245,invoice-pay-center.biz,URGENT EM-0245: Account user-245 suspended in 11 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0246,account-alert-secure.com,Invoice INV-8246 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0247,account-alert-secure.com,Security alert #247: unusual sign-in detected in region 5. Reset your banking PIN now before funds are locked.,Phishing
+EM-0248,university.edu,Project kickoff notes for initiative P-248 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0249,company.com,IT ticket #1249 resolved. Your laptop patch KB-49 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0250,shop-retail.com,"Hi team, sprint 11 review is scheduled for Monday at 9pm in conference room E. Agenda attached.",Legitimate
+EM-0251,secure-login-update.net,Invoice INV-8251 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0252,account-alert-secure.com,Security alert #252: unusual sign-in detected in region 1. Reset your banking PIN now before funds are locked.,Phishing
+EM-0253,shop-retail.com,Project kickoff notes for initiative P-253 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0254,shop-retail.com,IT ticket #1254 resolved. Your laptop patch KB-54 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0255,company.com,"Hi team, sprint 4 review is scheduled for Monday at 3pm in conference room D. Agenda attached.",Legitimate
+EM-0256,hr-portal.org,Your order #48256 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0257,hr-portal.org,Reminder REF-257: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0258,invoice-pay-center.biz,Congratulations! Prize code WIN-258 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0259,hr-portal.org,IT ticket #1259 resolved. Your laptop patch KB-59 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0260,hr-portal.org,"Hi team, sprint 9 review is scheduled for Monday at 8pm in conference room C. Agenda attached.",Legitimate
+EM-0261,invoice-pay-center.biz,Invoice INV-8261 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0262,university.edu,Reminder REF-262: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0263,invoice-pay-center.biz,Congratulations! Prize code WIN-263 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0264,account-alert-secure.com,Mailbox 264: Your subscription payment failed. Update billing at bank-verify-now.io within 1 hours or lose access.,Phishing
+EM-0265,company.com,"Hi team, sprint 2 review is scheduled for Monday at 2pm in conference room B. Agenda attached.",Legitimate
+EM-0266,hr-portal.org,Your order #48266 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0267,secure-login-update.net,Security alert #267: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0268,company.com,Project kickoff notes for initiative P-268 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0269,university.edu,IT ticket #1269 resolved. Your laptop patch KB-69 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0270,account-alert-secure.com,URGENT EM-0270: Account user-270 suspended in 36 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0271,shop-retail.com,Your order #48271 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0272,university.edu,Reminder REF-272: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0273,university.edu,Project kickoff notes for initiative P-273 are in /shared/projects/23. Please review action items by EOD.,Legitimate
+EM-0274,shop-retail.com,IT ticket #1274 resolved. Your laptop patch KB-74 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0275,hr-portal.org,"Hi team, sprint 12 review is scheduled for Monday at 1pm in conference room F. Agenda attached.",Legitimate
+EM-0276,company.com,Your order #48276 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0277,shop-retail.com,Reminder REF-277: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0278,hr-portal.org,Project kickoff notes for initiative P-278 are in /shared/projects/28. Please review action items by EOD.,Legitimate
+EM-0279,invoice-pay-center.biz,Mailbox 279: Your subscription payment failed. Update billing at bank-verify-now.io within 4 hours or lose access.,Phishing
+EM-0280,university.edu,"Hi team, sprint 5 review is scheduled for Monday at 6pm in conference room E. Agenda attached.",Legitimate
+EM-0281,university.edu,Your order #48281 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0282,shop-retail.com,Reminder REF-282: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0283,company.com,Project kickoff notes for initiative P-283 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0284,secure-login-update.net,Mailbox 284: Your subscription payment failed. Update billing at bank-verify-now.io within 9 hours or lose access.,Phishing
+EM-0285,account-alert-secure.com,URGENT EM-0285: Account user-285 suspended in 4 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0286,company.com,Your order #48286 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0287,secure-login-update.net,Security alert #287: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0288,bank-verify-now.io,Congratulations! Prize code WIN-288 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0289,account-alert-secure.com,Mailbox 289: Your subscription payment failed. Update billing at bank-verify-now.io within 2 hours or lose access.,Phishing
+EM-0290,university.edu,"Hi team, sprint 3 review is scheduled for Monday at 5pm in conference room C. Agenda attached.",Legitimate
+EM-0291,invoice-pay-center.biz,Invoice INV-8291 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0292,hr-portal.org,Reminder REF-292: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0293,university.edu,Project kickoff notes for initiative P-293 are in /shared/projects/43. Please review action items by EOD.,Legitimate
+EM-0294,hr-portal.org,IT ticket #1294 resolved. Your laptop patch KB-94 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0295,shop-retail.com,"Hi team, sprint 8 review is scheduled for Monday at 10pm in conference room B. Agenda attached.",Legitimate
+EM-0296,hr-portal.org,Your order #48296 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0297,hr-portal.org,Reminder REF-297: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0298,hr-portal.org,Project kickoff notes for initiative P-298 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0299,shop-retail.com,IT ticket #1299 resolved. Your laptop patch KB-99 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0300,bank-verify-now.io,URGENT EM-0300: Account user-300 suspended in 19 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0301,company.com,Your order #48301 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0302,company.com,Reminder REF-302: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0303,university.edu,Project kickoff notes for initiative P-303 are in /shared/projects/3. Please review action items by EOD.,Legitimate
+EM-0304,bank-verify-now.io,Mailbox 304: Your subscription payment failed. Update billing at bank-verify-now.io within 5 hours or lose access.,Phishing
+EM-0305,hr-portal.org,"Hi team, sprint 6 review is scheduled for Monday at 9pm in conference room F. Agenda attached.",Legitimate
+EM-0306,account-alert-secure.com,Invoice INV-8306 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0307,university.edu,Reminder REF-307: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0308,invoice-pay-center.biz,Congratulations! Prize code WIN-308 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0309,invoice-pay-center.biz,Mailbox 309: Your subscription payment failed. Update billing at bank-verify-now.io within 10 hours or lose access.,Phishing
+EM-0310,invoice-pay-center.biz,URGENT EM-0310: Account user-310 suspended in 29 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0311,invoice-pay-center.biz,Invoice INV-8311 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0312,invoice-pay-center.biz,Security alert #312: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0313,shop-retail.com,Project kickoff notes for initiative P-313 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0314,bank-verify-now.io,Mailbox 314: Your subscription payment failed. Update billing at bank-verify-now.io within 3 hours or lose access.,Phishing
+EM-0315,company.com,"Hi team, sprint 4 review is scheduled for Monday at 8pm in conference room D. Agenda attached.",Legitimate
+EM-0316,shop-retail.com,Your order #48316 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0317,shop-retail.com,Reminder REF-317: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0318,university.edu,Project kickoff notes for initiative P-318 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0319,shop-retail.com,IT ticket #1319 resolved. Your laptop patch KB-119 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0320,invoice-pay-center.biz,URGENT EM-0320: Account user-320 suspended in 39 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0321,hr-portal.org,Your order #48321 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0322,bank-verify-now.io,Security alert #322: unusual sign-in detected in region 8. Reset your banking PIN now before funds are locked.,Phishing
+EM-0323,bank-verify-now.io,Congratulations! Prize code WIN-323 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0324,hr-portal.org,IT ticket #1324 resolved. Your laptop patch KB-124 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0325,invoice-pay-center.biz,URGENT EM-0325: Account user-325 suspended in 44 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0326,university.edu,Your order #48326 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0327,shop-retail.com,Reminder REF-327: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0328,hr-portal.org,Project kickoff notes for initiative P-328 are in /shared/projects/28. Please review action items by EOD.,Legitimate
+EM-0329,university.edu,IT ticket #1329 resolved. Your laptop patch KB-129 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0330,secure-login-update.net,URGENT EM-0330: Account user-330 suspended in 2 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0331,secure-login-update.net,Invoice INV-8331 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0332,university.edu,Reminder REF-332: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0333,university.edu,Project kickoff notes for initiative P-333 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0334,invoice-pay-center.biz,Mailbox 334: Your subscription payment failed. Update billing at bank-verify-now.io within 11 hours or lose access.,Phishing
+EM-0335,secure-login-update.net,URGENT EM-0335: Account user-335 suspended in 7 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0336,university.edu,Your order #48336 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0337,account-alert-secure.com,Security alert #337: unusual sign-in detected in region 5. Reset your banking PIN now before funds are locked.,Phishing
+EM-0338,account-alert-secure.com,Congratulations! Prize code WIN-338 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0339,account-alert-secure.com,Mailbox 339: Your subscription payment failed. Update billing at bank-verify-now.io within 4 hours or lose access.,Phishing
+EM-0340,hr-portal.org,"Hi team, sprint 5 review is scheduled for Monday at 11pm in conference room E. Agenda attached.",Legitimate
+EM-0341,hr-portal.org,Your order #48341 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0342,shop-retail.com,Reminder REF-342: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0343,secure-login-update.net,Congratulations! Prize code WIN-343 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0344,company.com,IT ticket #1344 resolved. Your laptop patch KB-144 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0345,secure-login-update.net,URGENT EM-0345: Account user-345 suspended in 17 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0346,university.edu,Your order #48346 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0347,company.com,Reminder REF-347: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0348,bank-verify-now.io,Congratulations! Prize code WIN-348 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0349,secure-login-update.net,Mailbox 349: Your subscription payment failed. Update billing at bank-verify-now.io within 2 hours or lose access.,Phishing
+EM-0350,company.com,"Hi team, sprint 3 review is scheduled for Monday at 10pm in conference room C. Agenda attached.",Legitimate
+EM-0351,shop-retail.com,Your order #48351 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0352,invoice-pay-center.biz,Security alert #352: unusual sign-in detected in region 2. Reset your banking PIN now before funds are locked.,Phishing
+EM-0353,secure-login-update.net,Congratulations! Prize code WIN-353 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0354,shop-retail.com,IT ticket #1354 resolved. Your laptop patch KB-154 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0355,company.com,"Hi team, sprint 8 review is scheduled for Monday at 4pm in conference room B. Agenda attached.",Legitimate
+EM-0356,secure-login-update.net,Invoice INV-8356 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0357,secure-login-update.net,Security alert #357: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0358,bank-verify-now.io,Congratulations! Prize code WIN-358 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0359,account-alert-secure.com,Mailbox 359: Your subscription payment failed. Update billing at bank-verify-now.io within 12 hours or lose access.,Phishing
+EM-0360,account-alert-secure.com,URGENT EM-0360: Account user-360 suspended in 32 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0361,shop-retail.com,Your order #48361 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0362,secure-login-update.net,Security alert #362: unusual sign-in detected in region 3. Reset your banking PIN now before funds are locked.,Phishing
+EM-0363,invoice-pay-center.biz,Congratulations! Prize code WIN-363 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0364,university.edu,IT ticket #1364 resolved. Your laptop patch KB-164 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0365,invoice-pay-center.biz,URGENT EM-0365: Account user-365 suspended in 37 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0366,company.com,Your order #48366 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0367,hr-portal.org,Reminder REF-367: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0368,secure-login-update.net,Congratulations! Prize code WIN-368 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0369,shop-retail.com,IT ticket #1369 resolved. Your laptop patch KB-169 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0370,account-alert-secure.com,URGENT EM-0370: Account user-370 suspended in 42 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0371,invoice-pay-center.biz,Invoice INV-8371 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0372,invoice-pay-center.biz,Security alert #372: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0373,university.edu,Project kickoff notes for initiative P-373 are in /shared/projects/23. Please review action items by EOD.,Legitimate
+EM-0374,hr-portal.org,IT ticket #1374 resolved. Your laptop patch KB-174 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0375,invoice-pay-center.biz,URGENT EM-0375: Account user-375 suspended in 47 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0376,bank-verify-now.io,Invoice INV-8376 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0377,hr-portal.org,Reminder REF-377: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0378,secure-login-update.net,Congratulations! Prize code WIN-378 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0379,company.com,IT ticket #1379 resolved. Your laptop patch KB-179 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0380,university.edu,"Hi team, sprint 9 review is scheduled for Monday at 7pm in conference room C. Agenda attached.",Legitimate
+EM-0381,company.com,Your order #48381 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0382,shop-retail.com,Reminder REF-382: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0383,bank-verify-now.io,Congratulations! Prize code WIN-383 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0384,account-alert-secure.com,Mailbox 384: Your subscription payment failed. Update billing at bank-verify-now.io within 1 hours or lose access.,Phishing
+EM-0385,shop-retail.com,"Hi team, sprint 2 review is scheduled for Monday at 1pm in conference room B. Agenda attached.",Legitimate
+EM-0386,bank-verify-now.io,Invoice INV-8386 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0387,secure-login-update.net,Security alert #387: unusual sign-in detected in region 1. Reset your banking PIN now before funds are locked.,Phishing
+EM-0388,university.edu,Project kickoff notes for initiative P-388 are in /shared/projects/38. Please review action items by EOD.,Legitimate
+EM-0389,company.com,IT ticket #1389 resolved. Your laptop patch KB-189 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0390,shop-retail.com,"Hi team, sprint 7 review is scheduled for Monday at 6pm in conference room A. Agenda attached.",Legitimate
+EM-0391,university.edu,Your order #48391 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0392,university.edu,Reminder REF-392: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0393,invoice-pay-center.biz,Congratulations! Prize code WIN-393 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0394,shop-retail.com,IT ticket #1394 resolved. Your laptop patch KB-194 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0395,account-alert-secure.com,URGENT EM-0395: Account user-395 suspended in 20 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0396,bank-verify-now.io,Invoice INV-8396 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0397,hr-portal.org,Reminder REF-397: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0398,account-alert-secure.com,Congratulations! Prize code WIN-398 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0399,shop-retail.com,IT ticket #1399 resolved. Your laptop patch KB-199 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0400,hr-portal.org,"Hi team, sprint 5 review is scheduled for Monday at 5pm in conference room E. Agenda attached.",Legitimate
+EM-0401,university.edu,Your order #48401 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0402,bank-verify-now.io,Security alert #402: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0403,account-alert-secure.com,Congratulations! Prize code WIN-403 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0404,company.com,IT ticket #1404 resolved. Your laptop patch KB-4 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0405,invoice-pay-center.biz,URGENT EM-0405: Account user-405 suspended in 30 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0406,invoice-pay-center.biz,Invoice INV-8406 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0407,company.com,Reminder REF-407: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0408,hr-portal.org,Project kickoff notes for initiative P-408 are in /shared/projects/8. Please review action items by EOD.,Legitimate
+EM-0409,shop-retail.com,IT ticket #1409 resolved. Your laptop patch KB-9 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0410,invoice-pay-center.biz,URGENT EM-0410: Account user-410 suspended in 35 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0411,hr-portal.org,Your order #48411 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0412,company.com,Reminder REF-412: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0413,shop-retail.com,Project kickoff notes for initiative P-413 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0414,university.edu,IT ticket #1414 resolved. Your laptop patch KB-14 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0415,shop-retail.com,"Hi team, sprint 8 review is scheduled for Monday at 9pm in conference room B. Agenda attached.",Legitimate
+EM-0416,company.com,Your order #48416 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0417,university.edu,Reminder REF-417: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0418,bank-verify-now.io,Congratulations! Prize code WIN-418 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0419,bank-verify-now.io,Mailbox 419: Your subscription payment failed. Update billing at bank-verify-now.io within 12 hours or lose access.,Phishing
+EM-0420,shop-retail.com,"Hi team, sprint 1 review is scheduled for Monday at 3pm in conference room A. Agenda attached.",Legitimate
+EM-0421,secure-login-update.net,Invoice INV-8421 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0422,invoice-pay-center.biz,Security alert #422: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0423,company.com,Project kickoff notes for initiative P-423 are in /shared/projects/23. Please review action items by EOD.,Legitimate
+EM-0424,company.com,IT ticket #1424 resolved. Your laptop patch KB-24 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0425,university.edu,"Hi team, sprint 6 review is scheduled for Monday at 8pm in conference room F. Agenda attached.",Legitimate
+EM-0426,company.com,Your order #48426 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0427,company.com,Reminder REF-427: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0428,invoice-pay-center.biz,Congratulations! Prize code WIN-428 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0429,university.edu,IT ticket #1429 resolved. Your laptop patch KB-29 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0430,shop-retail.com,"Hi team, sprint 11 review is scheduled for Monday at 2pm in conference room E. Agenda attached.",Legitimate
+EM-0431,secure-login-update.net,Invoice INV-8431 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0432,hr-portal.org,Reminder REF-432: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0433,shop-retail.com,Project kickoff notes for initiative P-433 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0434,bank-verify-now.io,Mailbox 434: Your subscription payment failed. Update billing at bank-verify-now.io within 3 hours or lose access.,Phishing
+EM-0435,account-alert-secure.com,URGENT EM-0435: Account user-435 suspended in 13 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0436,invoice-pay-center.biz,Invoice INV-8436 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0437,hr-portal.org,Reminder REF-437: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0438,university.edu,Project kickoff notes for initiative P-438 are in /shared/projects/38. Please review action items by EOD.,Legitimate
+EM-0439,hr-portal.org,IT ticket #1439 resolved. Your laptop patch KB-39 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0440,secure-login-update.net,URGENT EM-0440: Account user-440 suspended in 18 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0441,shop-retail.com,Your order #48441 has shipped via route 1. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0442,shop-retail.com,Reminder REF-442: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0443,account-alert-secure.com,Congratulations! Prize code WIN-443 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0444,university.edu,IT ticket #1444 resolved. Your laptop patch KB-44 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0445,hr-portal.org,"Hi team, sprint 2 review is scheduled for Monday at 6pm in conference room B. Agenda attached.",Legitimate
+EM-0446,shop-retail.com,Your order #48446 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0447,company.com,Reminder REF-447: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0448,hr-portal.org,Project kickoff notes for initiative P-448 are in /shared/projects/48. Please review action items by EOD.,Legitimate
+EM-0449,secure-login-update.net,Mailbox 449: Your subscription payment failed. Update billing at bank-verify-now.io within 6 hours or lose access.,Phishing
+EM-0450,secure-login-update.net,URGENT EM-0450: Account user-450 suspended in 28 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0451,invoice-pay-center.biz,Invoice INV-8451 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0452,secure-login-update.net,Security alert #452: unusual sign-in detected in region 3. Reset your banking PIN now before funds are locked.,Phishing
+EM-0453,invoice-pay-center.biz,Congratulations! Prize code WIN-453 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0454,university.edu,IT ticket #1454 resolved. Your laptop patch KB-54 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0455,university.edu,"Hi team, sprint 12 review is scheduled for Monday at 5pm in conference room F. Agenda attached.",Legitimate
+EM-0456,invoice-pay-center.biz,Invoice INV-8456 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0457,invoice-pay-center.biz,Security alert #457: unusual sign-in detected in region 8. Reset your banking PIN now before funds are locked.,Phishing
+EM-0458,invoice-pay-center.biz,Congratulations! Prize code WIN-458 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0459,hr-portal.org,IT ticket #1459 resolved. Your laptop patch KB-59 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0460,shop-retail.com,"Hi team, sprint 5 review is scheduled for Monday at 10pm in conference room E. Agenda attached.",Legitimate
+EM-0461,secure-login-update.net,Invoice INV-8461 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0462,bank-verify-now.io,Security alert #462: unusual sign-in detected in region 4. Reset your banking PIN now before funds are locked.,Phishing
+EM-0463,hr-portal.org,Project kickoff notes for initiative P-463 are in /shared/projects/13. Please review action items by EOD.,Legitimate
+EM-0464,hr-portal.org,IT ticket #1464 resolved. Your laptop patch KB-64 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0465,shop-retail.com,"Hi team, sprint 10 review is scheduled for Monday at 4pm in conference room D. Agenda attached.",Legitimate
+EM-0466,university.edu,Your order #48466 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0467,account-alert-secure.com,Security alert #467: unusual sign-in detected in region 9. Reset your banking PIN now before funds are locked.,Phishing
+EM-0468,university.edu,Project kickoff notes for initiative P-468 are in /shared/projects/18. Please review action items by EOD.,Legitimate
+EM-0469,hr-portal.org,IT ticket #1469 resolved. Your laptop patch KB-69 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0470,account-alert-secure.com,URGENT EM-0470: Account user-470 suspended in 1 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0471,secure-login-update.net,Invoice INV-8471 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0472,bank-verify-now.io,Security alert #472: unusual sign-in detected in region 5. Reset your banking PIN now before funds are locked.,Phishing
+EM-0473,account-alert-secure.com,Congratulations! Prize code WIN-473 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0474,account-alert-secure.com,Mailbox 474: Your subscription payment failed. Update billing at bank-verify-now.io within 7 hours or lose access.,Phishing
+EM-0475,shop-retail.com,"Hi team, sprint 8 review is scheduled for Monday at 3pm in conference room B. Agenda attached.",Legitimate
+EM-0476,company.com,Your order #48476 has shipped via route 16. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0477,hr-portal.org,Reminder REF-477: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0478,shop-retail.com,Project kickoff notes for initiative P-478 are in /shared/projects/28. Please review action items by EOD.,Legitimate
+EM-0479,shop-retail.com,IT ticket #1479 resolved. Your laptop patch KB-79 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0480,account-alert-secure.com,URGENT EM-0480: Account user-480 suspended in 11 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0481,secure-login-update.net,Invoice INV-8481 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0482,account-alert-secure.com,Security alert #482: unusual sign-in detected in region 6. Reset your banking PIN now before funds are locked.,Phishing
+EM-0483,company.com,Project kickoff notes for initiative P-483 are in /shared/projects/33. Please review action items by EOD.,Legitimate
+EM-0484,secure-login-update.net,Mailbox 484: Your subscription payment failed. Update billing at bank-verify-now.io within 5 hours or lose access.,Phishing
+EM-0485,account-alert-secure.com,URGENT EM-0485: Account user-485 suspended in 16 hours. Verify credentials at secure-login-update.net immediately.,Phishing
+EM-0486,shop-retail.com,Your order #48486 has shipped via route 6. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0487,company.com,Reminder REF-487: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0488,invoice-pay-center.biz,Congratulations! Prize code WIN-488 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0489,university.edu,IT ticket #1489 resolved. Your laptop patch KB-89 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0490,company.com,"Hi team, sprint 11 review is scheduled for Monday at 7pm in conference room E. Agenda attached.",Legitimate
+EM-0491,shop-retail.com,Your order #48491 has shipped via route 11. Track delivery in your account dashboard. Thank you for your purchase.,Legitimate
+EM-0492,bank-verify-now.io,Security alert #492: unusual sign-in detected in region 7. Reset your banking PIN now before funds are locked.,Phishing
+EM-0493,account-alert-secure.com,Congratulations! Prize code WIN-493 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0494,invoice-pay-center.biz,Mailbox 494: Your subscription payment failed. Update billing at bank-verify-now.io within 3 hours or lose access.,Phishing
+EM-0495,university.edu,"Hi team, sprint 4 review is scheduled for Monday at 1pm in conference room D. Agenda attached.",Legitimate
+EM-0496,invoice-pay-center.biz,Invoice INV-8496 is overdue. Confirm your password on invoice-pay-center.biz to avoid legal action by Tuesday.,Phishing
+EM-0497,shop-retail.com,Reminder REF-497: annual benefits enrollment closes Wednesday. Visit the HR portal to update your selections.,Legitimate
+EM-0498,account-alert-secure.com,Congratulations! Prize code WIN-498 expires in 5 hours. Provide card details at account-alert-secure.com to claim.,Phishing
+EM-0499,shop-retail.com,IT ticket #1499 resolved. Your laptop patch KB-99 installed successfully. Contact helpdesk with questions.,Legitimate
+EM-0500,company.com,"Hi team, sprint 9 review is scheduled for Monday at 6pm in conference room C. Agenda attached.",Legitimate

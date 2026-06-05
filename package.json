@@ -1,13 +1,14 @@
 {
   "name": "visionforge",
   "version": "0.1.0",
-  "description": "An all-in-one AI creative hub featuring AI Agents, Text/Image Generation, and RAG document chatting.",
+  "description": "AI/ML platform: GenAI agents, evaluated RAG, computer vision tooling, and real sklearn training on six business models.",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ml:samples": "python scripts/generate_ml_samples.py"
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.80",
@@ -39,6 +40,7 @@
     "react-dropzone": "^15.0.0",
     "react-hook-form": "^7.77.0",
     "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^16.1.1",
     "recharts": "^3.8.1",
     "remark-gfm": "^4.0.1",
     "sharp": "^0.34.5",
@@ -52,6 +54,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",

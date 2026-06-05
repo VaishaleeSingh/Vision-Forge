@@ -5,6 +5,7 @@ import {
   formatDatasetAnalysisReport,
   parseCsvContent,
 } from '@/features/agents/csv-dataset'
+import { CSV_MAX_BYTES } from '@/features/ml/constants'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -26,7 +27,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'csvText is required' }, { status: 400 })
   }
 
-  if (csvText.length > 5 * 1024 * 1024) {
+  if (csvText.length > CSV_MAX_BYTES) {
     return NextResponse.json({ error: 'CSV must be 5MB or smaller' }, { status: 400 })
   }
 

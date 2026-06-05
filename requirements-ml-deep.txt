@@ -1,0 +1,10 @@
+# Optional deep-learning stack (agent-generated PyTorch/TF/HF code — not required to run Train in UI)
+# TensorFlow often lacks wheels for newest Python; use Python 3.10–3.12 if you need this file.
+# pip install -r requirements-ml.txt
+# pip install -r requirements-ml-deep.txt
+
+-r requirements-ml.txt
+xgboost>=2.0.0
+torch>=2.0.0
+transformers>=4.40.0
+# tensorflow>=2.15.0  # Uncomment on Python 3.10–3.12 only if needed

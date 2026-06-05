@@ -1,3 +1,5 @@
+import { ML_TRAINING_STEP_NAMES } from '@/features/agents/ml-step-names'
+
 export type AgentStepConfig = {
   step: number
   name: string
@@ -14,7 +16,7 @@ const ML_FREE_STACK = `Use free/open libraries where code is needed:
 export const MODEL_TRAINING_STEPS: AgentStepConfig[] = [
   {
     step: 1,
-    name: 'ML Orchestrator Agent',
+    name: ML_TRAINING_STEP_NAMES[0],
     prompt: (task: string) => `You are an expert Machine Learning Orchestrator Agent.
 
 Your responsibility is to understand the user's ML problem and create an end-to-end training pipeline.
@@ -54,7 +56,7 @@ ${ML_FREE_STACK}`,
   },
   {
     step: 2,
-    name: 'Data Preprocessing Agent',
+    name: ML_TRAINING_STEP_NAMES[1],
     prompt: (task: string, prevContent: string = '') => `You are a Data Preparation Agent.
 
 User task (may include STATISTICAL DATASET PROFILE):
@@ -89,7 +91,7 @@ Keep this step concise (under 700 words). Use prior pipeline context only.`,
   },
   {
     step: 3,
-    name: 'Model Selection Agent',
+    name: ML_TRAINING_STEP_NAMES[2],
     prompt: (task: string, prevContent: string = '') => `You are a Machine Learning Model Selection Agent.
 
 User task: "${task}"
@@ -131,7 +133,7 @@ Keep this step concise (under 700 words).`,
   },
   {
     step: 4,
-    name: 'Model Training Agent',
+    name: ML_TRAINING_STEP_NAMES[3],
     prompt: (task: string, prevContent: string = '') => `You are an AI Model Training Agent.
 
 User task: "${task}"
@@ -164,7 +166,7 @@ Keep training code focused; under 700 words outside code blocks.`,
   },
   {
     step: 5,
-    name: 'Model Evaluation Agent',
+    name: ML_TRAINING_STEP_NAMES[4],
     prompt: (task: string, prevContent: string = '') => `You are a Machine Learning Evaluation Agent.
 
 User task: "${task}"
@@ -191,7 +193,7 @@ Keep concise (under 700 words).`,
   },
   {
     step: 6,
-    name: 'Hyperparameter Optimization Agent',
+    name: ML_TRAINING_STEP_NAMES[5],
     prompt: (task: string, prevContent: string = '') => `You are a Model Optimization Agent.
 
 User task: "${task}"
@@ -218,7 +220,7 @@ Keep concise (under 700 words).`,
   },
   {
     step: 7,
-    name: 'NLP Fine-tuning Agent',
+    name: ML_TRAINING_STEP_NAMES[6],
     prompt: (task: string, prevContent: string = '') => `You are an NLP Fine-Tuning Agent.
 
 User task: "${task}"
@@ -244,7 +246,7 @@ If NLP, be concise (under 600 words).`,
   },
   {
     step: 8,
-    name: 'Computer Vision Training Agent',
+    name: ML_TRAINING_STEP_NAMES[7],
     prompt: (task: string, prevContent: string = '') => `You are a Computer Vision Training Agent.
 
 User task: "${task}"
@@ -270,7 +272,7 @@ If CV, be concise (under 600 words).`,
   },
   {
     step: 9,
-    name: 'Final ML Report Agent',
+    name: ML_TRAINING_STEP_NAMES[8],
     prompt: (task: string, prevContent: string = '') => `You are the Final ML Pipeline Report Agent.
 
 User task: "${task}"
@@ -293,8 +295,4 @@ Synthesize an executive deliverable:
 This is the definitive handoff: autonomous ML pipeline from dataset analysis through training, evaluation, and improvement.`,
   },
 ]
-
-export function getModelTrainingSteps(): AgentStepConfig[] {
-  return MODEL_TRAINING_STEPS
-}
 

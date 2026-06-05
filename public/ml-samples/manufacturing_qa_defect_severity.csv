@@ -1,0 +1,451 @@
+inspection_id,product_line,shift,qa_report,defect_severity
+QA-0001,Industrial pump,Evening,Inspection 1: surface finish on Industrial pump batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0002,Medical device housing,Evening,QA-0002: Medical device housing unit 2 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0003,Automotive sensor,Day,Hold 3: Automotive sensor weld crack on bracket batch W-3. Full lot recall recommended.,Critical
+QA-0004,Industrial pump,Night,CRITICAL QA-0004: Industrial pump serial 4 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0005,Medical device housing,Night,Line audit 5: torque variance on Medical device housing assembly; 1 units exceed upper control limit.,Major
+QA-0006,Medical device housing,Night,QA-0006: Medical device housing unit 6 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0007,PCB module,Day,Line audit 7: torque variance on PCB module assembly; 3 units exceed upper control limit.,Major
+QA-0008,Hydraulic valve,Evening,QA-0008: Hydraulic valve unit 8 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0009,Hydraulic valve,Day,Hold 9: Hydraulic valve weld crack on bracket batch W-9. Full lot recall recommended.,Critical
+QA-0010,PCB module,Day,QA-0010: PCB module unit 10 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0011,PCB module,Evening,Line audit 11: torque variance on PCB module assembly; 2 units exceed upper control limit.,Major
+QA-0012,Hydraulic valve,Day,QA-0012: Hydraulic valve unit 12 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0013,Automotive sensor,Night,Line audit 13: torque variance on Automotive sensor assembly; 4 units exceed upper control limit.,Major
+QA-0014,Automotive sensor,Evening,CRITICAL QA-0014: Automotive sensor serial 14 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0015,Medical device housing,Evening,Inspection 15: surface finish on Medical device housing batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0016,Automotive sensor,Evening,CRITICAL QA-0016: Automotive sensor serial 16 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0017,Hydraulic valve,Night,Inspection 17: surface finish on Hydraulic valve batch B-17 slightly below spec on non-critical panel.,Minor
+QA-0018,Automotive sensor,Evening,QA-0018: Automotive sensor lot L-18 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0019,PCB module,Day,Line audit 19: torque variance on PCB module assembly; 5 units exceed upper control limit.,Major
+QA-0020,PCB module,Evening,QA-0020: PCB module unit 20 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0021,Industrial pump,Night,Line audit 21: torque variance on Industrial pump assembly; 2 units exceed upper control limit.,Major
+QA-0022,Industrial pump,Night,QA-0022: Industrial pump unit 22 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0023,Hydraulic valve,Day,Hold 23: Hydraulic valve weld crack on bracket batch W-23. Full lot recall recommended.,Critical
+QA-0024,Hydraulic valve,Night,CRITICAL QA-0024: Hydraulic valve serial 24 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0025,Industrial pump,Night,Hold 25: Industrial pump weld crack on bracket batch W-25. Full lot recall recommended.,Critical
+QA-0026,Automotive sensor,Evening,QA-0026: Automotive sensor lot L-26 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0027,Hydraulic valve,Day,Inspection 27: surface finish on Hydraulic valve batch B-27 slightly below spec on non-critical panel.,Minor
+QA-0028,Hydraulic valve,Evening,QA-0028: Hydraulic valve unit 28 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0029,Medical device housing,Day,Line audit 29: torque variance on Medical device housing assembly; 5 units exceed upper control limit.,Major
+QA-0030,Hydraulic valve,Day,QA-0030: Hydraulic valve lot L-30 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0031,Medical device housing,Evening,Inspection 31: surface finish on Medical device housing batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0032,Automotive sensor,Day,QA-0032: Automotive sensor unit 32 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0033,PCB module,Night,Line audit 33: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0034,PCB module,Evening,CRITICAL QA-0034: PCB module serial 34 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0035,PCB module,Evening,Inspection 35: surface finish on PCB module batch B-35 slightly below spec on non-critical panel.,Minor
+QA-0036,Medical device housing,Evening,QA-0036: Medical device housing unit 36 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0037,Medical device housing,Evening,Line audit 37: torque variance on Medical device housing assembly; 3 units exceed upper control limit.,Major
+QA-0038,PCB module,Evening,QA-0038: PCB module unit 38 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0039,PCB module,Evening,Inspection 39: surface finish on PCB module batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0040,Automotive sensor,Day,QA-0040: Automotive sensor unit 40 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0041,Hydraulic valve,Night,Inspection 41: surface finish on Hydraulic valve batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0042,Automotive sensor,Day,CRITICAL QA-0042: Automotive sensor serial 42 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0043,Industrial pump,Day,Inspection 43: surface finish on Industrial pump batch B-3 slightly below spec on non-critical panel.,Minor
+QA-0044,Hydraulic valve,Evening,QA-0044: Hydraulic valve unit 44 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0045,PCB module,Night,Inspection 45: surface finish on PCB module batch B-5 slightly below spec on non-critical panel.,Minor
+QA-0046,Hydraulic valve,Day,QA-0046: Hydraulic valve unit 46 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0047,Medical device housing,Night,Inspection 47: surface finish on Medical device housing batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0048,PCB module,Day,QA-0048: PCB module unit 48 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0049,Industrial pump,Night,Inspection 49: surface finish on Industrial pump batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0050,Medical device housing,Night,QA-0050: Medical device housing lot L-50 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0051,Medical device housing,Night,Hold 51: Medical device housing weld crack on bracket batch W-21. Full lot recall recommended.,Critical
+QA-0052,Medical device housing,Evening,QA-0052: Medical device housing lot L-52 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0053,Automotive sensor,Night,Line audit 53: torque variance on Automotive sensor assembly; 4 units exceed upper control limit.,Major
+QA-0054,Automotive sensor,Evening,CRITICAL QA-0054: Automotive sensor serial 54 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0055,Industrial pump,Night,Inspection 55: surface finish on Industrial pump batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0056,Medical device housing,Day,QA-0056: Medical device housing lot L-56 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0057,Automotive sensor,Night,Line audit 57: torque variance on Automotive sensor assembly; 3 units exceed upper control limit.,Major
+QA-0058,Medical device housing,Evening,CRITICAL QA-0058: Medical device housing serial 58 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0059,PCB module,Night,Hold 59: PCB module weld crack on bracket batch W-29. Full lot recall recommended.,Critical
+QA-0060,PCB module,Day,QA-0060: PCB module lot L-60 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0061,Hydraulic valve,Day,Inspection 61: surface finish on Hydraulic valve batch B-21 slightly below spec on non-critical panel.,Minor
+QA-0062,Industrial pump,Evening,QA-0062: Industrial pump unit 62 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0063,Medical device housing,Day,Line audit 63: torque variance on Medical device housing assembly; 4 units exceed upper control limit.,Major
+QA-0064,Industrial pump,Evening,QA-0064: Industrial pump unit 64 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0065,Hydraulic valve,Night,Inspection 65: surface finish on Hydraulic valve batch B-25 slightly below spec on non-critical panel.,Minor
+QA-0066,Automotive sensor,Evening,QA-0066: Automotive sensor lot L-66 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0067,Hydraulic valve,Night,Line audit 67: torque variance on Hydraulic valve assembly; 3 units exceed upper control limit.,Major
+QA-0068,Hydraulic valve,Night,QA-0068: Hydraulic valve lot L-68 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0069,Medical device housing,Day,Inspection 69: surface finish on Medical device housing batch B-29 slightly below spec on non-critical panel.,Minor
+QA-0070,PCB module,Evening,QA-0070: PCB module lot L-70 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0071,PCB module,Evening,Inspection 71: surface finish on PCB module batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0072,Automotive sensor,Evening,QA-0072: Automotive sensor lot L-72 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0073,Automotive sensor,Evening,Inspection 73: surface finish on Automotive sensor batch B-33 slightly below spec on non-critical panel.,Minor
+QA-0074,Hydraulic valve,Evening,QA-0074: Hydraulic valve unit 74 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0075,Industrial pump,Night,Line audit 75: torque variance on Industrial pump assembly; 1 units exceed upper control limit.,Major
+QA-0076,Automotive sensor,Day,QA-0076: Automotive sensor lot L-76 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0077,Medical device housing,Evening,Hold 77: Medical device housing weld crack on bracket batch W-17. Full lot recall recommended.,Critical
+QA-0078,Hydraulic valve,Night,QA-0078: Hydraulic valve lot L-78 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0079,Hydraulic valve,Evening,Inspection 79: surface finish on Hydraulic valve batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0080,Automotive sensor,Day,QA-0080: Automotive sensor lot L-80 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0081,Industrial pump,Evening,Inspection 81: surface finish on Industrial pump batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0082,Hydraulic valve,Night,QA-0082: Hydraulic valve unit 82 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0083,PCB module,Night,Line audit 83: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0084,Medical device housing,Night,QA-0084: Medical device housing lot L-84 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0085,Automotive sensor,Day,Hold 85: Automotive sensor weld crack on bracket batch W-25. Full lot recall recommended.,Critical
+QA-0086,PCB module,Day,CRITICAL QA-0086: PCB module serial 86 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0087,Industrial pump,Day,Inspection 87: surface finish on Industrial pump batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0088,PCB module,Night,QA-0088: PCB module unit 88 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0089,Hydraulic valve,Evening,Inspection 89: surface finish on Hydraulic valve batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0090,Medical device housing,Day,CRITICAL QA-0090: Medical device housing serial 90 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0091,Industrial pump,Day,Inspection 91: surface finish on Industrial pump batch B-11 slightly below spec on non-critical panel.,Minor
+QA-0092,Industrial pump,Evening,CRITICAL QA-0092: Industrial pump serial 92 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0093,Medical device housing,Evening,Inspection 93: surface finish on Medical device housing batch B-13 slightly below spec on non-critical panel.,Minor
+QA-0094,Automotive sensor,Night,QA-0094: Automotive sensor unit 94 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0095,Medical device housing,Evening,Line audit 95: torque variance on Medical device housing assembly; 1 units exceed upper control limit.,Major
+QA-0096,PCB module,Night,QA-0096: PCB module lot L-96 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0097,Industrial pump,Night,Inspection 97: surface finish on Industrial pump batch B-17 slightly below spec on non-critical panel.,Minor
+QA-0098,Industrial pump,Day,QA-0098: Industrial pump unit 98 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0099,PCB module,Evening,Hold 99: PCB module weld crack on bracket batch W-9. Full lot recall recommended.,Critical
+QA-0100,Industrial pump,Day,CRITICAL QA-0100: Industrial pump serial 100 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0101,PCB module,Day,Inspection 101: surface finish on PCB module batch B-21 slightly below spec on non-critical panel.,Minor
+QA-0102,PCB module,Evening,QA-0102: PCB module unit 102 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0103,Medical device housing,Day,Line audit 103: torque variance on Medical device housing assembly; 4 units exceed upper control limit.,Major
+QA-0104,Automotive sensor,Day,QA-0104: Automotive sensor lot L-104 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0105,Medical device housing,Evening,Hold 105: Medical device housing weld crack on bracket batch W-15. Full lot recall recommended.,Critical
+QA-0106,Automotive sensor,Evening,QA-0106: Automotive sensor unit 106 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0107,Medical device housing,Evening,Hold 107: Medical device housing weld crack on bracket batch W-17. Full lot recall recommended.,Critical
+QA-0108,PCB module,Evening,QA-0108: PCB module unit 108 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0109,Industrial pump,Evening,Hold 109: Industrial pump weld crack on bracket batch W-19. Full lot recall recommended.,Critical
+QA-0110,Automotive sensor,Evening,QA-0110: Automotive sensor lot L-110 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0111,Medical device housing,Night,Hold 111: Medical device housing weld crack on bracket batch W-21. Full lot recall recommended.,Critical
+QA-0112,PCB module,Night,QA-0112: PCB module unit 112 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0113,Automotive sensor,Day,Line audit 113: torque variance on Automotive sensor assembly; 4 units exceed upper control limit.,Major
+QA-0114,Automotive sensor,Evening,QA-0114: Automotive sensor unit 114 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0115,Medical device housing,Night,Inspection 115: surface finish on Medical device housing batch B-35 slightly below spec on non-critical panel.,Minor
+QA-0116,Automotive sensor,Night,QA-0116: Automotive sensor unit 116 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0117,Industrial pump,Day,Inspection 117: surface finish on Industrial pump batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0118,PCB module,Day,QA-0118: PCB module lot L-118 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0119,Hydraulic valve,Day,Line audit 119: torque variance on Hydraulic valve assembly; 5 units exceed upper control limit.,Major
+QA-0120,Medical device housing,Day,QA-0120: Medical device housing lot L-120 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0121,Hydraulic valve,Day,Inspection 121: surface finish on Hydraulic valve batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0122,Industrial pump,Evening,CRITICAL QA-0122: Industrial pump serial 122 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0123,Medical device housing,Day,Inspection 123: surface finish on Medical device housing batch B-3 slightly below spec on non-critical panel.,Minor
+QA-0124,Automotive sensor,Day,QA-0124: Automotive sensor unit 124 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0125,Industrial pump,Day,Line audit 125: torque variance on Industrial pump assembly; 1 units exceed upper control limit.,Major
+QA-0126,Medical device housing,Evening,QA-0126: Medical device housing lot L-126 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0127,PCB module,Evening,Inspection 127: surface finish on PCB module batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0128,Automotive sensor,Night,CRITICAL QA-0128: Automotive sensor serial 128 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0129,Hydraulic valve,Day,Inspection 129: surface finish on Hydraulic valve batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0130,Medical device housing,Evening,QA-0130: Medical device housing lot L-130 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0131,Automotive sensor,Day,Inspection 131: surface finish on Automotive sensor batch B-11 slightly below spec on non-critical panel.,Minor
+QA-0132,PCB module,Day,QA-0132: PCB module lot L-132 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0133,Hydraulic valve,Night,Line audit 133: torque variance on Hydraulic valve assembly; 4 units exceed upper control limit.,Major
+QA-0134,Industrial pump,Day,QA-0134: Industrial pump unit 134 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0135,Automotive sensor,Day,Line audit 135: torque variance on Automotive sensor assembly; 1 units exceed upper control limit.,Major
+QA-0136,PCB module,Day,QA-0136: PCB module unit 136 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0137,PCB module,Day,Line audit 137: torque variance on PCB module assembly; 3 units exceed upper control limit.,Major
+QA-0138,Medical device housing,Day,QA-0138: Medical device housing lot L-138 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0139,Hydraulic valve,Day,Line audit 139: torque variance on Hydraulic valve assembly; 5 units exceed upper control limit.,Major
+QA-0140,PCB module,Night,CRITICAL QA-0140: PCB module serial 140 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0141,PCB module,Night,Inspection 141: surface finish on PCB module batch B-21 slightly below spec on non-critical panel.,Minor
+QA-0142,PCB module,Night,QA-0142: PCB module unit 142 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0143,Medical device housing,Night,Line audit 143: torque variance on Medical device housing assembly; 4 units exceed upper control limit.,Major
+QA-0144,Industrial pump,Night,QA-0144: Industrial pump unit 144 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0145,PCB module,Day,Line audit 145: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0146,PCB module,Evening,QA-0146: PCB module lot L-146 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0147,Medical device housing,Night,Inspection 147: surface finish on Medical device housing batch B-27 slightly below spec on non-critical panel.,Minor
+QA-0148,Medical device housing,Evening,CRITICAL QA-0148: Medical device housing serial 148 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0149,Industrial pump,Evening,Hold 149: Industrial pump weld crack on bracket batch W-29. Full lot recall recommended.,Critical
+QA-0150,Automotive sensor,Evening,QA-0150: Automotive sensor unit 150 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0151,Medical device housing,Evening,Inspection 151: surface finish on Medical device housing batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0152,Hydraulic valve,Evening,CRITICAL QA-0152: Hydraulic valve serial 152 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0153,Medical device housing,Evening,Hold 153: Medical device housing weld crack on bracket batch W-3. Full lot recall recommended.,Critical
+QA-0154,Medical device housing,Evening,CRITICAL QA-0154: Medical device housing serial 154 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0155,PCB module,Evening,Line audit 155: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0156,PCB module,Evening,CRITICAL QA-0156: PCB module serial 156 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0157,Industrial pump,Night,Inspection 157: surface finish on Industrial pump batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0158,PCB module,Night,QA-0158: PCB module unit 158 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0159,Medical device housing,Night,Inspection 159: surface finish on Medical device housing batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0160,Medical device housing,Night,QA-0160: Medical device housing lot L-160 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0161,Hydraulic valve,Evening,Inspection 161: surface finish on Hydraulic valve batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0162,Hydraulic valve,Evening,CRITICAL QA-0162: Hydraulic valve serial 162 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0163,Industrial pump,Day,Line audit 163: torque variance on Industrial pump assembly; 4 units exceed upper control limit.,Major
+QA-0164,PCB module,Day,QA-0164: PCB module unit 164 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0165,Hydraulic valve,Evening,Line audit 165: torque variance on Hydraulic valve assembly; 1 units exceed upper control limit.,Major
+QA-0166,Hydraulic valve,Day,QA-0166: Hydraulic valve unit 166 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0167,Medical device housing,Day,Inspection 167: surface finish on Medical device housing batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0168,PCB module,Evening,CRITICAL QA-0168: PCB module serial 168 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0169,Medical device housing,Day,Hold 169: Medical device housing weld crack on bracket batch W-19. Full lot recall recommended.,Critical
+QA-0170,Medical device housing,Night,QA-0170: Medical device housing unit 170 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0171,Medical device housing,Night,Inspection 171: surface finish on Medical device housing batch B-11 slightly below spec on non-critical panel.,Minor
+QA-0172,Hydraulic valve,Night,QA-0172: Hydraulic valve lot L-172 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0173,PCB module,Day,Line audit 173: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0174,Medical device housing,Evening,QA-0174: Medical device housing unit 174 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0175,Medical device housing,Day,Hold 175: Medical device housing weld crack on bracket batch W-25. Full lot recall recommended.,Critical
+QA-0176,PCB module,Night,QA-0176: PCB module unit 176 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0177,Hydraulic valve,Day,Line audit 177: torque variance on Hydraulic valve assembly; 3 units exceed upper control limit.,Major
+QA-0178,Automotive sensor,Day,QA-0178: Automotive sensor lot L-178 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0179,Automotive sensor,Day,Inspection 179: surface finish on Automotive sensor batch B-19 slightly below spec on non-critical panel.,Minor
+QA-0180,Industrial pump,Evening,CRITICAL QA-0180: Industrial pump serial 180 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0181,Industrial pump,Day,Inspection 181: surface finish on Industrial pump batch B-21 slightly below spec on non-critical panel.,Minor
+QA-0182,Medical device housing,Day,QA-0182: Medical device housing unit 182 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0183,Industrial pump,Evening,Line audit 183: torque variance on Industrial pump assembly; 4 units exceed upper control limit.,Major
+QA-0184,Hydraulic valve,Evening,CRITICAL QA-0184: Hydraulic valve serial 184 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0185,PCB module,Day,Inspection 185: surface finish on PCB module batch B-25 slightly below spec on non-critical panel.,Minor
+QA-0186,Industrial pump,Night,QA-0186: Industrial pump unit 186 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0187,Medical device housing,Day,Hold 187: Medical device housing weld crack on bracket batch W-7. Full lot recall recommended.,Critical
+QA-0188,Medical device housing,Night,QA-0188: Medical device housing unit 188 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0189,Hydraulic valve,Night,Inspection 189: surface finish on Hydraulic valve batch B-29 slightly below spec on non-critical panel.,Minor
+QA-0190,Hydraulic valve,Night,QA-0190: Hydraulic valve lot L-190 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0191,Industrial pump,Day,Line audit 191: torque variance on Industrial pump assembly; 2 units exceed upper control limit.,Major
+QA-0192,Automotive sensor,Day,QA-0192: Automotive sensor lot L-192 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0193,PCB module,Day,Inspection 193: surface finish on PCB module batch B-33 slightly below spec on non-critical panel.,Minor
+QA-0194,Medical device housing,Evening,CRITICAL QA-0194: Medical device housing serial 194 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0195,PCB module,Day,Line audit 195: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0196,Hydraulic valve,Evening,QA-0196: Hydraulic valve lot L-196 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0197,PCB module,Day,Line audit 197: torque variance on PCB module assembly; 3 units exceed upper control limit.,Major
+QA-0198,PCB module,Evening,CRITICAL QA-0198: PCB module serial 198 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0199,Hydraulic valve,Evening,Inspection 199: surface finish on Hydraulic valve batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0200,Automotive sensor,Day,CRITICAL QA-0200: Automotive sensor serial 200 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0201,Medical device housing,Evening,Inspection 201: surface finish on Medical device housing batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0202,PCB module,Day,CRITICAL QA-0202: PCB module serial 202 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0203,Medical device housing,Evening,Hold 203: Medical device housing weld crack on bracket batch W-23. Full lot recall recommended.,Critical
+QA-0204,Industrial pump,Day,QA-0204: Industrial pump lot L-204 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0205,Industrial pump,Evening,Line audit 205: torque variance on Industrial pump assembly; 1 units exceed upper control limit.,Major
+QA-0206,Automotive sensor,Night,QA-0206: Automotive sensor lot L-206 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0207,PCB module,Evening,Hold 207: PCB module weld crack on bracket batch W-27. Full lot recall recommended.,Critical
+QA-0208,Industrial pump,Evening,QA-0208: Industrial pump unit 208 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0209,Hydraulic valve,Day,Hold 209: Hydraulic valve weld crack on bracket batch W-29. Full lot recall recommended.,Critical
+QA-0210,PCB module,Day,QA-0210: PCB module unit 210 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0211,Automotive sensor,Night,Line audit 211: torque variance on Automotive sensor assembly; 2 units exceed upper control limit.,Major
+QA-0212,Industrial pump,Evening,QA-0212: Industrial pump unit 212 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0213,Industrial pump,Night,Inspection 213: surface finish on Industrial pump batch B-13 slightly below spec on non-critical panel.,Minor
+QA-0214,PCB module,Evening,QA-0214: PCB module lot L-214 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0215,Hydraulic valve,Night,Inspection 215: surface finish on Hydraulic valve batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0216,Automotive sensor,Day,QA-0216: Automotive sensor lot L-216 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0217,Industrial pump,Evening,Inspection 217: surface finish on Industrial pump batch B-17 slightly below spec on non-critical panel.,Minor
+QA-0218,PCB module,Night,QA-0218: PCB module unit 218 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0219,Industrial pump,Evening,Line audit 219: torque variance on Industrial pump assembly; 5 units exceed upper control limit.,Major
+QA-0220,Industrial pump,Evening,CRITICAL QA-0220: Industrial pump serial 220 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0221,PCB module,Day,Line audit 221: torque variance on PCB module assembly; 2 units exceed upper control limit.,Major
+QA-0222,Industrial pump,Night,QA-0222: Industrial pump lot L-222 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0223,Medical device housing,Evening,Line audit 223: torque variance on Medical device housing assembly; 4 units exceed upper control limit.,Major
+QA-0224,Automotive sensor,Night,CRITICAL QA-0224: Automotive sensor serial 224 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0225,Automotive sensor,Evening,Hold 225: Automotive sensor weld crack on bracket batch W-15. Full lot recall recommended.,Critical
+QA-0226,Hydraulic valve,Day,CRITICAL QA-0226: Hydraulic valve serial 226 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0227,Medical device housing,Day,Hold 227: Medical device housing weld crack on bracket batch W-17. Full lot recall recommended.,Critical
+QA-0228,Medical device housing,Evening,QA-0228: Medical device housing unit 228 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0229,Automotive sensor,Day,Inspection 229: surface finish on Automotive sensor batch B-29 slightly below spec on non-critical panel.,Minor
+QA-0230,Automotive sensor,Day,CRITICAL QA-0230: Automotive sensor serial 230 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0231,Automotive sensor,Evening,Line audit 231: torque variance on Automotive sensor assembly; 2 units exceed upper control limit.,Major
+QA-0232,Hydraulic valve,Night,QA-0232: Hydraulic valve unit 232 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0233,PCB module,Evening,Line audit 233: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0234,Automotive sensor,Day,QA-0234: Automotive sensor lot L-234 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0235,Medical device housing,Night,Inspection 235: surface finish on Medical device housing batch B-35 slightly below spec on non-critical panel.,Minor
+QA-0236,Automotive sensor,Night,QA-0236: Automotive sensor unit 236 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0237,Automotive sensor,Night,Inspection 237: surface finish on Automotive sensor batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0238,Medical device housing,Night,QA-0238: Medical device housing unit 238 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0239,Automotive sensor,Night,Inspection 239: surface finish on Automotive sensor batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0240,Hydraulic valve,Day,QA-0240: Hydraulic valve unit 240 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0241,PCB module,Day,Line audit 241: torque variance on PCB module assembly; 2 units exceed upper control limit.,Major
+QA-0242,PCB module,Night,QA-0242: PCB module unit 242 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0243,Hydraulic valve,Day,Hold 243: Hydraulic valve weld crack on bracket batch W-3. Full lot recall recommended.,Critical
+QA-0244,PCB module,Day,QA-0244: PCB module unit 244 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0245,Automotive sensor,Day,Inspection 245: surface finish on Automotive sensor batch B-5 slightly below spec on non-critical panel.,Minor
+QA-0246,Industrial pump,Night,QA-0246: Industrial pump unit 246 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0247,Hydraulic valve,Night,Hold 247: Hydraulic valve weld crack on bracket batch W-7. Full lot recall recommended.,Critical
+QA-0248,Automotive sensor,Day,QA-0248: Automotive sensor lot L-248 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0249,Medical device housing,Evening,Inspection 249: surface finish on Medical device housing batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0250,Medical device housing,Night,QA-0250: Medical device housing unit 250 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0251,Hydraulic valve,Evening,Inspection 251: surface finish on Hydraulic valve batch B-11 slightly below spec on non-critical panel.,Minor
+QA-0252,Hydraulic valve,Day,QA-0252: Hydraulic valve lot L-252 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0253,PCB module,Evening,Inspection 253: surface finish on PCB module batch B-13 slightly below spec on non-critical panel.,Minor
+QA-0254,Medical device housing,Night,QA-0254: Medical device housing lot L-254 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0255,Industrial pump,Day,Inspection 255: surface finish on Industrial pump batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0256,Automotive sensor,Evening,QA-0256: Automotive sensor unit 256 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0257,Industrial pump,Day,Hold 257: Industrial pump weld crack on bracket batch W-17. Full lot recall recommended.,Critical
+QA-0258,Hydraulic valve,Evening,QA-0258: Hydraulic valve lot L-258 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0259,Automotive sensor,Night,Line audit 259: torque variance on Automotive sensor assembly; 5 units exceed upper control limit.,Major
+QA-0260,PCB module,Night,QA-0260: PCB module unit 260 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0261,Automotive sensor,Evening,Inspection 261: surface finish on Automotive sensor batch B-21 slightly below spec on non-critical panel.,Minor
+QA-0262,Hydraulic valve,Day,QA-0262: Hydraulic valve lot L-262 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0263,Hydraulic valve,Evening,Inspection 263: surface finish on Hydraulic valve batch B-23 slightly below spec on non-critical panel.,Minor
+QA-0264,PCB module,Evening,QA-0264: PCB module unit 264 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0265,Industrial pump,Evening,Line audit 265: torque variance on Industrial pump assembly; 1 units exceed upper control limit.,Major
+QA-0266,Industrial pump,Night,QA-0266: Industrial pump lot L-266 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0267,Medical device housing,Day,Inspection 267: surface finish on Medical device housing batch B-27 slightly below spec on non-critical panel.,Minor
+QA-0268,Automotive sensor,Evening,QA-0268: Automotive sensor lot L-268 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0269,PCB module,Evening,Hold 269: PCB module weld crack on bracket batch W-29. Full lot recall recommended.,Critical
+QA-0270,PCB module,Evening,QA-0270: PCB module lot L-270 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0271,PCB module,Night,Inspection 271: surface finish on PCB module batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0272,PCB module,Day,QA-0272: PCB module unit 272 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0273,Medical device housing,Evening,Line audit 273: torque variance on Medical device housing assembly; 4 units exceed upper control limit.,Major
+QA-0274,Medical device housing,Day,QA-0274: Medical device housing unit 274 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0275,PCB module,Night,Line audit 275: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0276,Medical device housing,Day,QA-0276: Medical device housing unit 276 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0277,Medical device housing,Evening,Inspection 277: surface finish on Medical device housing batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0278,PCB module,Evening,QA-0278: PCB module unit 278 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0279,Medical device housing,Evening,Inspection 279: surface finish on Medical device housing batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0280,Medical device housing,Night,QA-0280: Medical device housing unit 280 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0281,Industrial pump,Evening,Inspection 281: surface finish on Industrial pump batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0282,Hydraulic valve,Evening,QA-0282: Hydraulic valve lot L-282 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0283,PCB module,Day,Hold 283: PCB module weld crack on bracket batch W-13. Full lot recall recommended.,Critical
+QA-0284,PCB module,Day,CRITICAL QA-0284: PCB module serial 284 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0285,Industrial pump,Day,Hold 285: Industrial pump weld crack on bracket batch W-15. Full lot recall recommended.,Critical
+QA-0286,Industrial pump,Night,QA-0286: Industrial pump lot L-286 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0287,Industrial pump,Night,Inspection 287: surface finish on Industrial pump batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0288,PCB module,Evening,CRITICAL QA-0288: PCB module serial 288 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0289,PCB module,Evening,Inspection 289: surface finish on PCB module batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0290,Medical device housing,Evening,QA-0290: Medical device housing unit 290 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0291,Hydraulic valve,Day,Inspection 291: surface finish on Hydraulic valve batch B-11 slightly below spec on non-critical panel.,Minor
+QA-0292,Hydraulic valve,Evening,QA-0292: Hydraulic valve unit 292 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0293,Industrial pump,Night,Line audit 293: torque variance on Industrial pump assembly; 4 units exceed upper control limit.,Major
+QA-0294,Medical device housing,Evening,QA-0294: Medical device housing unit 294 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0295,Automotive sensor,Evening,Inspection 295: surface finish on Automotive sensor batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0296,PCB module,Evening,QA-0296: PCB module unit 296 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0297,Medical device housing,Evening,Hold 297: Medical device housing weld crack on bracket batch W-27. Full lot recall recommended.,Critical
+QA-0298,PCB module,Night,QA-0298: PCB module lot L-298 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0299,Industrial pump,Evening,Line audit 299: torque variance on Industrial pump assembly; 5 units exceed upper control limit.,Major
+QA-0300,Medical device housing,Evening,CRITICAL QA-0300: Medical device housing serial 300 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0301,Hydraulic valve,Day,Hold 301: Hydraulic valve weld crack on bracket batch W-1. Full lot recall recommended.,Critical
+QA-0302,Hydraulic valve,Day,QA-0302: Hydraulic valve lot L-302 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0303,PCB module,Day,Line audit 303: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0304,Industrial pump,Day,QA-0304: Industrial pump lot L-304 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0305,PCB module,Night,Line audit 305: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0306,Industrial pump,Evening,QA-0306: Industrial pump unit 306 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0307,PCB module,Night,Line audit 307: torque variance on PCB module assembly; 3 units exceed upper control limit.,Major
+QA-0308,Industrial pump,Evening,QA-0308: Industrial pump unit 308 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0309,Medical device housing,Evening,Line audit 309: torque variance on Medical device housing assembly; 5 units exceed upper control limit.,Major
+QA-0310,Medical device housing,Day,QA-0310: Medical device housing unit 310 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0311,PCB module,Night,Inspection 311: surface finish on PCB module batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0312,Automotive sensor,Night,QA-0312: Automotive sensor unit 312 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0313,PCB module,Evening,Line audit 313: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0314,Industrial pump,Evening,QA-0314: Industrial pump lot L-314 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0315,Hydraulic valve,Day,Hold 315: Hydraulic valve weld crack on bracket batch W-15. Full lot recall recommended.,Critical
+QA-0316,Medical device housing,Night,CRITICAL QA-0316: Medical device housing serial 316 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0317,Hydraulic valve,Night,Inspection 317: surface finish on Hydraulic valve batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0318,Automotive sensor,Day,QA-0318: Automotive sensor lot L-318 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0319,Hydraulic valve,Evening,Line audit 319: torque variance on Hydraulic valve assembly; 5 units exceed upper control limit.,Major
+QA-0320,Medical device housing,Evening,QA-0320: Medical device housing lot L-320 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0321,Automotive sensor,Day,Inspection 321: surface finish on Automotive sensor batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0322,Medical device housing,Day,QA-0322: Medical device housing unit 322 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0323,PCB module,Evening,Inspection 323: surface finish on PCB module batch B-3 slightly below spec on non-critical panel.,Minor
+QA-0324,Medical device housing,Evening,QA-0324: Medical device housing unit 324 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0325,Hydraulic valve,Evening,Inspection 325: surface finish on Hydraulic valve batch B-5 slightly below spec on non-critical panel.,Minor
+QA-0326,Industrial pump,Evening,QA-0326: Industrial pump unit 326 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0327,PCB module,Night,Inspection 327: surface finish on PCB module batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0328,Hydraulic valve,Day,QA-0328: Hydraulic valve lot L-328 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0329,Hydraulic valve,Day,Inspection 329: surface finish on Hydraulic valve batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0330,Automotive sensor,Evening,QA-0330: Automotive sensor unit 330 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0331,Hydraulic valve,Day,Line audit 331: torque variance on Hydraulic valve assembly; 2 units exceed upper control limit.,Major
+QA-0332,Industrial pump,Evening,CRITICAL QA-0332: Industrial pump serial 332 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0333,Hydraulic valve,Evening,Inspection 333: surface finish on Hydraulic valve batch B-13 slightly below spec on non-critical panel.,Minor
+QA-0334,Industrial pump,Evening,QA-0334: Industrial pump unit 334 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0335,Hydraulic valve,Day,Hold 335: Hydraulic valve weld crack on bracket batch W-5. Full lot recall recommended.,Critical
+QA-0336,Industrial pump,Night,QA-0336: Industrial pump unit 336 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0337,Automotive sensor,Day,Hold 337: Automotive sensor weld crack on bracket batch W-7. Full lot recall recommended.,Critical
+QA-0338,Medical device housing,Day,QA-0338: Medical device housing lot L-338 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0339,Medical device housing,Night,Inspection 339: surface finish on Medical device housing batch B-19 slightly below spec on non-critical panel.,Minor
+QA-0340,Medical device housing,Day,CRITICAL QA-0340: Medical device housing serial 340 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0341,Automotive sensor,Evening,Line audit 341: torque variance on Automotive sensor assembly; 2 units exceed upper control limit.,Major
+QA-0342,Industrial pump,Evening,QA-0342: Industrial pump unit 342 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0343,Automotive sensor,Night,Line audit 343: torque variance on Automotive sensor assembly; 4 units exceed upper control limit.,Major
+QA-0344,Automotive sensor,Night,QA-0344: Automotive sensor lot L-344 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0345,PCB module,Night,Line audit 345: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0346,Automotive sensor,Evening,CRITICAL QA-0346: Automotive sensor serial 346 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0347,Medical device housing,Evening,Inspection 347: surface finish on Medical device housing batch B-27 slightly below spec on non-critical panel.,Minor
+QA-0348,Medical device housing,Night,QA-0348: Medical device housing unit 348 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0349,Hydraulic valve,Night,Inspection 349: surface finish on Hydraulic valve batch B-29 slightly below spec on non-critical panel.,Minor
+QA-0350,Medical device housing,Day,QA-0350: Medical device housing lot L-350 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0351,Medical device housing,Day,Line audit 351: torque variance on Medical device housing assembly; 2 units exceed upper control limit.,Major
+QA-0352,Medical device housing,Evening,QA-0352: Medical device housing lot L-352 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0353,PCB module,Night,Line audit 353: torque variance on PCB module assembly; 4 units exceed upper control limit.,Major
+QA-0354,PCB module,Evening,QA-0354: PCB module unit 354 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0355,PCB module,Night,Inspection 355: surface finish on PCB module batch B-35 slightly below spec on non-critical panel.,Minor
+QA-0356,PCB module,Day,QA-0356: PCB module lot L-356 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0357,Medical device housing,Day,Line audit 357: torque variance on Medical device housing assembly; 3 units exceed upper control limit.,Major
+QA-0358,Medical device housing,Day,QA-0358: Medical device housing lot L-358 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0359,Industrial pump,Night,Line audit 359: torque variance on Industrial pump assembly; 5 units exceed upper control limit.,Major
+QA-0360,Industrial pump,Day,QA-0360: Industrial pump lot L-360 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0361,PCB module,Night,Inspection 361: surface finish on PCB module batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0362,Automotive sensor,Night,CRITICAL QA-0362: Automotive sensor serial 362 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0363,Hydraulic valve,Night,Inspection 363: surface finish on Hydraulic valve batch B-3 slightly below spec on non-critical panel.,Minor
+QA-0364,Industrial pump,Day,QA-0364: Industrial pump lot L-364 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0365,Medical device housing,Evening,Line audit 365: torque variance on Medical device housing assembly; 1 units exceed upper control limit.,Major
+QA-0366,Industrial pump,Evening,QA-0366: Industrial pump unit 366 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0367,PCB module,Evening,Inspection 367: surface finish on PCB module batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0368,PCB module,Night,QA-0368: PCB module unit 368 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0369,Hydraulic valve,Day,Line audit 369: torque variance on Hydraulic valve assembly; 5 units exceed upper control limit.,Major
+QA-0370,Medical device housing,Evening,QA-0370: Medical device housing unit 370 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0371,Automotive sensor,Day,Line audit 371: torque variance on Automotive sensor assembly; 2 units exceed upper control limit.,Major
+QA-0372,Medical device housing,Night,QA-0372: Medical device housing lot L-372 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0373,Industrial pump,Night,Hold 373: Industrial pump weld crack on bracket batch W-13. Full lot recall recommended.,Critical
+QA-0374,Medical device housing,Evening,CRITICAL QA-0374: Medical device housing serial 374 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0375,Industrial pump,Night,Line audit 375: torque variance on Industrial pump assembly; 1 units exceed upper control limit.,Major
+QA-0376,Medical device housing,Evening,QA-0376: Medical device housing lot L-376 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0377,Medical device housing,Evening,Line audit 377: torque variance on Medical device housing assembly; 3 units exceed upper control limit.,Major
+QA-0378,Automotive sensor,Day,QA-0378: Automotive sensor unit 378 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0379,Industrial pump,Night,Inspection 379: surface finish on Industrial pump batch B-19 slightly below spec on non-critical panel.,Minor
+QA-0380,PCB module,Evening,QA-0380: PCB module lot L-380 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0381,PCB module,Day,Line audit 381: torque variance on PCB module assembly; 2 units exceed upper control limit.,Major
+QA-0382,PCB module,Night,QA-0382: PCB module lot L-382 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0383,Industrial pump,Night,Line audit 383: torque variance on Industrial pump assembly; 4 units exceed upper control limit.,Major
+QA-0384,Medical device housing,Day,QA-0384: Medical device housing unit 384 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0385,Automotive sensor,Night,Hold 385: Automotive sensor weld crack on bracket batch W-25. Full lot recall recommended.,Critical
+QA-0386,Automotive sensor,Evening,CRITICAL QA-0386: Automotive sensor serial 386 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0387,Automotive sensor,Evening,Inspection 387: surface finish on Automotive sensor batch B-27 slightly below spec on non-critical panel.,Minor
+QA-0388,Hydraulic valve,Day,CRITICAL QA-0388: Hydraulic valve serial 388 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0389,Automotive sensor,Night,Inspection 389: surface finish on Automotive sensor batch B-29 slightly below spec on non-critical panel.,Minor
+QA-0390,Medical device housing,Night,CRITICAL QA-0390: Medical device housing serial 390 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0391,Industrial pump,Evening,Inspection 391: surface finish on Industrial pump batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0392,Automotive sensor,Day,QA-0392: Automotive sensor unit 392 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0393,Automotive sensor,Evening,Inspection 393: surface finish on Automotive sensor batch B-33 slightly below spec on non-critical panel.,Minor
+QA-0394,PCB module,Day,CRITICAL QA-0394: PCB module serial 394 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0395,Automotive sensor,Night,Hold 395: Automotive sensor weld crack on bracket batch W-5. Full lot recall recommended.,Critical
+QA-0396,Automotive sensor,Evening,CRITICAL QA-0396: Automotive sensor serial 396 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0397,Medical device housing,Day,Inspection 397: surface finish on Medical device housing batch B-37 slightly below spec on non-critical panel.,Minor
+QA-0398,Medical device housing,Night,QA-0398: Medical device housing lot L-398 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0399,Hydraulic valve,Day,Inspection 399: surface finish on Hydraulic valve batch B-39 slightly below spec on non-critical panel.,Minor
+QA-0400,Hydraulic valve,Night,QA-0400: Hydraulic valve lot L-400 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0401,Medical device housing,Evening,Inspection 401: surface finish on Medical device housing batch B-1 slightly below spec on non-critical panel.,Minor
+QA-0402,PCB module,Evening,QA-0402: PCB module unit 402 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0403,PCB module,Evening,Hold 403: PCB module weld crack on bracket batch W-13. Full lot recall recommended.,Critical
+QA-0404,Medical device housing,Night,CRITICAL QA-0404: Medical device housing serial 404 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0405,Automotive sensor,Evening,Line audit 405: torque variance on Automotive sensor assembly; 1 units exceed upper control limit.,Major
+QA-0406,Industrial pump,Day,QA-0406: Industrial pump lot L-406 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0407,Industrial pump,Evening,Inspection 407: surface finish on Industrial pump batch B-7 slightly below spec on non-critical panel.,Minor
+QA-0408,Medical device housing,Evening,QA-0408: Medical device housing unit 408 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0409,Automotive sensor,Day,Hold 409: Automotive sensor weld crack on bracket batch W-19. Full lot recall recommended.,Critical
+QA-0410,Hydraulic valve,Evening,CRITICAL QA-0410: Hydraulic valve serial 410 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0411,Hydraulic valve,Evening,Hold 411: Hydraulic valve weld crack on bracket batch W-21. Full lot recall recommended.,Critical
+QA-0412,Medical device housing,Night,QA-0412: Medical device housing lot L-412 solder bridge on control board affecting 3% of units. Rework queue initiated.,Major
+QA-0413,Automotive sensor,Day,Inspection 413: surface finish on Automotive sensor batch B-13 slightly below spec on non-critical panel.,Minor
+QA-0414,Hydraulic valve,Evening,QA-0414: Hydraulic valve unit 414 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0415,Hydraulic valve,Night,Inspection 415: surface finish on Hydraulic valve batch B-15 slightly below spec on non-critical panel.,Minor
+QA-0416,Industrial pump,Night,QA-0416: Industrial pump lot L-416 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0417,Medical device housing,Night,Inspection 417: surface finish on Medical device housing batch B-17 slightly below spec on non-critical panel.,Minor
+QA-0418,Industrial pump,Night,QA-0418: Industrial pump unit 418 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0419,PCB module,Evening,Inspection 419: surface finish on PCB module batch B-19 slightly below spec on non-critical panel.,Minor
+QA-0420,Industrial pump,Night,QA-0420: Industrial pump unit 420 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0421,PCB module,Evening,Line audit 421: torque variance on PCB module assembly; 2 units exceed upper control limit.,Major
+QA-0422,Industrial pump,Day,CRITICAL QA-0422: Industrial pump serial 422 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0423,Hydraulic valve,Day,Inspection 423: surface finish on Hydraulic valve batch B-23 slightly below spec on non-critical panel.,Minor
+QA-0424,Industrial pump,Night,CRITICAL QA-0424: Industrial pump serial 424 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0425,PCB module,Night,Line audit 425: torque variance on PCB module assembly; 1 units exceed upper control limit.,Major
+QA-0426,Medical device housing,Evening,CRITICAL QA-0426: Medical device housing serial 426 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0427,Hydraulic valve,Night,Hold 427: Hydraulic valve weld crack on bracket batch W-7. Full lot recall recommended.,Critical
+QA-0428,Medical device housing,Night,QA-0428: Medical device housing lot L-428 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0429,Medical device housing,Night,Hold 429: Medical device housing weld crack on bracket batch W-9. Full lot recall recommended.,Critical
+QA-0430,Medical device housing,Day,CRITICAL QA-0430: Medical device housing serial 430 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0431,PCB module,Evening,Inspection 431: surface finish on PCB module batch B-31 slightly below spec on non-critical panel.,Minor
+QA-0432,Automotive sensor,Night,CRITICAL QA-0432: Automotive sensor serial 432 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0433,Automotive sensor,Night,Line audit 433: torque variance on Automotive sensor assembly; 4 units exceed upper control limit.,Major
+QA-0434,Automotive sensor,Night,QA-0434: Automotive sensor unit 434 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0435,Medical device housing,Night,Line audit 435: torque variance on Medical device housing assembly; 1 units exceed upper control limit.,Major
+QA-0436,Industrial pump,Evening,QA-0436: Industrial pump lot L-436 solder bridge on control board affecting 2% of units. Rework queue initiated.,Major
+QA-0437,Industrial pump,Evening,Line audit 437: torque variance on Industrial pump assembly; 3 units exceed upper control limit.,Major
+QA-0438,Hydraulic valve,Evening,QA-0438: Hydraulic valve lot L-438 solder bridge on control board affecting 4% of units. Rework queue initiated.,Major
+QA-0439,Medical device housing,Night,Line audit 439: torque variance on Medical device housing assembly; 5 units exceed upper control limit.,Major
+QA-0440,PCB module,Day,QA-0440: PCB module lot L-440 solder bridge on control board affecting 1% of units. Rework queue initiated.,Major
+QA-0441,Medical device housing,Evening,Line audit 441: torque variance on Medical device housing assembly; 2 units exceed upper control limit.,Major
+QA-0442,Medical device housing,Day,CRITICAL QA-0442: Medical device housing serial 442 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0443,Automotive sensor,Night,Hold 443: Automotive sensor weld crack on bracket batch W-23. Full lot recall recommended.,Critical
+QA-0444,Automotive sensor,Day,QA-0444: Automotive sensor lot L-444 solder bridge on control board affecting 5% of units. Rework queue initiated.,Major
+QA-0445,Industrial pump,Evening,Inspection 445: surface finish on Industrial pump batch B-5 slightly below spec on non-critical panel.,Minor
+QA-0446,Industrial pump,Night,CRITICAL QA-0446: Industrial pump serial 446 safety interlock failed stress test. Stop-ship issued.,Critical
+QA-0447,Automotive sensor,Day,Hold 447: Automotive sensor weld crack on bracket batch W-27. Full lot recall recommended.,Critical
+QA-0448,Automotive sensor,Evening,QA-0448: Automotive sensor unit 448 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor
+QA-0449,Automotive sensor,Night,Inspection 449: surface finish on Automotive sensor batch B-9 slightly below spec on non-critical panel.,Minor
+QA-0450,Automotive sensor,Evening,QA-0450: Automotive sensor unit 450 passed dimensional check with minor cosmetic scratch. No functional impact.,Minor

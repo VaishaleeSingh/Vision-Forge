@@ -19,6 +19,7 @@ import {
   Trash2,
   ChevronRight,
   File,
+  BarChart2,
 } from 'lucide-react'
 import { toast } from 'sonner'
 
@@ -34,6 +35,14 @@ interface KnowledgeDocument {
   chunkCount: number
   embeddingProvider?: string
   errorMessage?: string
+  ragEval?: {
+    precisionAt5?: number
+    meanTopScore?: number
+    chunkCount?: number
+    recommendation?: string
+    stakeholderBrief?: string
+  }
+  ragEvaluatedAt?: string
   createdAt: string
 }
 
@@ -100,6 +109,8 @@ export default function KnowledgePage() {
   const [pendingFile, setPendingFile] = useState<PendingFile | null>(null)
   const [uploadProgress, setUploadProgress] = useState(0)
   const [isLoadingDocs, setIsLoadingDocs] = useState(true)
+  const [ragEvalLoading, setRagEvalLoading] = useState(false)
+  const [ragEvalResult, setRagEvalResult] = useState<KnowledgeDocument['ragEval'] | null>(null)
   const [uploadError, setUploadError] = useState<string | null>(null)
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
@@ -235,10 +246,34 @@ export default function KnowledgePage() {
   }
 
   // ── Select document ────────────────────────────────────────────────────────
+  const handleRagEval = async () => {
+    if (!selectedDoc) return
+    setRagEvalLoading(true)
+    setRagEvalResult(null)
+    try {
+      const res = await fetch(`/api/knowledge/documents/${selectedDoc._id}/eval`, {
+        method: 'POST',
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Evaluation failed')
+      setRagEvalResult({
+        ...data.eval,
+        stakeholderBrief: data.stakeholderBrief,
+      })
+      toast.success(`RAG precision@5: ${((data.eval.precisionAt5 as number) * 100).toFixed(0)}%`)
+      void fetchDocuments()
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'RAG evaluation failed')
+    } finally {
+      setRagEvalLoading(false)
+    }
+  }
+
   function handleSelectDoc(doc: KnowledgeDocument) {
     if (doc.status !== 'ready') return
     setSelectedDoc(doc)
     setMessages([])
+    setRagEvalResult(doc.ragEval ?? null)
     setTimeout(() => chatEditorRef.current?.commands.focus(), 100)
   }
 
@@ -587,12 +622,12 @@ export default function KnowledgePage() {
       {/* ── RIGHT PANEL: Chat ──────────────────────────────────────────────── */}
       <div className="flex-1 glass-card flex flex-col overflow-hidden">
         {/* Chat Header */}
-        <div className="px-5 py-4 border-b border-[var(--border-default)] flex items-center gap-3 shrink-0">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-aqua-400 to-aqua-600 flex items-center justify-center">
+        <div className="px-5 py-4 border-b border-[var(--border-default)] flex items-center gap-3 shrink-0 flex-wrap">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-aqua-400 to-aqua-600 flex items-center justify-center shrink-0">
             <MessageSquare className="w-4 h-4 text-white" />
           </div>
-          <div>
-            <h2 className="font-semibold text-sm text-[var(--text-primary)]">
+          <div className="flex-1 min-w-0">
+            <h2 className="font-semibold text-sm text-[var(--text-primary)] truncate">
               {selectedDoc ? selectedDoc.originalName : 'Knowledge Chat'}
             </h2>
             <p className="text-[10px] text-[var(--text-muted)]">
@@ -601,7 +636,38 @@ export default function KnowledgePage() {
                 : 'RAG-powered document Q&A'}
             </p>
           </div>
+          {selectedDoc?.status === 'ready' && (
+            <button
+              type="button"
+              onClick={() => void handleRagEval()}
+              disabled={ragEvalLoading}
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-aqua-200 bg-aqua-50 text-[10px] font-semibold text-aqua-700 hover:bg-aqua-100 disabled:opacity-50 shrink-0"
+            >
+              {ragEvalLoading ? (
+                <Loader2 className="w-3 h-3 animate-spin" />
+              ) : (
+                <BarChart2 className="w-3 h-3" />
+              )}
+              Evaluate RAG
+            </button>
+          )}
         </div>
+
+        {ragEvalResult && selectedDoc && (
+          <div className="px-5 py-2 border-b border-[var(--border-default)] bg-beige-50/80 text-[10px] sm:text-xs text-[var(--text-secondary)] space-y-1 shrink-0">
+            <p>
+              <strong>RAG quality:</strong> precision@5{' '}
+              {((ragEvalResult.precisionAt5 ?? 0) * 100).toFixed(0)}% · mean score{' '}
+              {ragEvalResult.meanTopScore?.toFixed(2) ?? '—'}
+            </p>
+            {ragEvalResult.stakeholderBrief && (
+              <p className="line-clamp-3">{ragEvalResult.stakeholderBrief}</p>
+            )}
+            {ragEvalResult.recommendation && !ragEvalResult.stakeholderBrief && (
+              <p className="line-clamp-2">{ragEvalResult.recommendation}</p>
+            )}
+          </div>
+        )}
 
         {/* Messages Area */}
         <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">

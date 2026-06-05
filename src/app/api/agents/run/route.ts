@@ -3,7 +3,10 @@ import { auth } from '@/lib/auth'
 import connectDB from '@/lib/mongodb'
 import { completeGroqChat, geminiFlash, GROQ_CHAT_MODELS } from '@/lib/ai'
 import AgentRun from '@/models/AgentRun'
-import { getModelTrainingSteps } from '@/features/agents/server/workflows'
+import {
+  MODEL_TRAINING_STEPS,
+  type AgentStepConfig,
+} from '@/features/agents/server/workflows'
 import {
   appendPipelineStep,
   capPromptSize,
@@ -237,12 +240,6 @@ Format as a professional consulting deliverable.`,
   },
 ]
 
-type AgentStepConfig = {
-  step: number
-  name: string
-  prompt: (task: string, prevContent?: string) => string
-}
-
 function getSteps(agentType: string): AgentStepConfig[] {
   switch (agentType) {
     case 'content':
@@ -250,7 +247,7 @@ function getSteps(agentType: string): AgentStepConfig[] {
     case 'analysis':
       return ANALYSIS_STEPS as AgentStepConfig[]
     case 'model-training':
-      return getModelTrainingSteps()
+      return MODEL_TRAINING_STEPS
     default:
       return RESEARCH_STEPS as AgentStepConfig[]
   }

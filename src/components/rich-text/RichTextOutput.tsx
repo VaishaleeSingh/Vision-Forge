@@ -9,6 +9,7 @@ import ReactMarkdown, { type Components } from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { cn } from '@/lib/utils'
 import { plainToEditorHtml } from './utils'
+import { MarkdownCodeBlock } from './CodeBlock'
 
 export interface RichTextOutputProps {
   content: string
@@ -32,8 +33,7 @@ export const richTextOutputProseClass = cn(
   'prose-strong:break-words',
   'prose-li:break-words',
   'prose-img:max-w-full prose-img:h-auto prose-img:rounded-lg',
-  'prose-pre:overflow-x-auto prose-pre:max-w-full prose-pre:text-[0.7rem] sm:prose-pre:text-sm',
-  'prose-code:break-words prose-code:text-[0.8em] sm:prose-code:text-sm',
+  'prose-pre:!p-0 prose-pre:!m-0 prose-pre:!bg-transparent prose-pre:!border-0',
   'prose-code:before:content-none prose-code:after:content-none',
 )
 
@@ -63,32 +63,10 @@ const markdownComponents: Components = {
       {children}
     </td>
   ),
-  pre: ({ children, ...props }) => (
-    <pre
-      className="my-3 w-full min-w-0 max-w-full overflow-x-auto rounded-lg bg-beige-50 p-2 sm:p-3 text-[0.7rem] sm:text-xs md:text-sm"
-      {...props}
-    >
-      {children}
-    </pre>
+  pre: ({ children }) => <div className="not-prose w-full min-w-0">{children}</div>,
+  code: ({ className, children }) => (
+    <MarkdownCodeBlock className={className}>{children}</MarkdownCodeBlock>
   ),
-  code: ({ className, children, ...props }) => {
-    const isBlock = className?.includes('language-')
-    if (isBlock) {
-      return (
-        <code className={cn(className, 'block min-w-0')} {...props}>
-          {children}
-        </code>
-      )
-    }
-    return (
-      <code
-        className="rounded bg-beige-100 px-1 py-0.5 text-[0.85em] break-words"
-        {...props}
-      >
-        {children}
-      </code>
-    )
-  },
   a: ({ href, children, ...props }) => (
     <a
       href={href}
