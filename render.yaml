@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vision-forge
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PYTHON_PATH
+        value: python3

@@ -6,16 +6,24 @@ RUN apt-get update \
 
 WORKDIR /app
 
+# Render sets NODE_ENV=production during build; Next.js build needs devDependencies.
+ENV NPM_CONFIG_PRODUCTION=false
+
 COPY package.json package-lock.json ./
-RUN npm ci
+
+RUN node --version && npm --version \
+  && ls -la package.json package-lock.json \
+  && npm ci --include=dev --no-audit --no-fund
 
 COPY requirements-ml.txt ./
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements-ml.txt
 
 COPY . .
+
 RUN npm run build
 
 ENV NODE_ENV=production
+ENV NPM_CONFIG_PRODUCTION=true
 ENV PYTHON_PATH=python3
 ENV HOSTNAME=0.0.0.0
 ENV PORT=3000
