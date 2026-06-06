@@ -6,22 +6,22 @@ RUN apt-get update \
 
 WORKDIR /app
 
-# Match local npm 11 lockfile; npm 10 in node:20 image breaks `npm ci` on this project.
 RUN npm install -g npm@11
 
 COPY . .
 
+# Install all deps (including devDependencies for the Next.js build).
 ENV NODE_ENV=development
 ENV NPM_CONFIG_PRODUCTION=false
-
 RUN npm install --no-audit --no-fund
 
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements-ml.txt
 
-RUN npm run build
-
+# next build must run with NODE_ENV=production (development breaks client prerender).
 ENV NODE_ENV=production
 ENV NPM_CONFIG_PRODUCTION=true
+RUN npm run build
+
 ENV PYTHON_PATH=python3
 ENV HOSTNAME=0.0.0.0
 ENV PORT=3000
