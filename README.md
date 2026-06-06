@@ -147,8 +147,8 @@ Next.js 16 · React · Tailwind · Framer Motion · MongoDB/Mongoose · NextAuth
 ## Getting started
 
 ```bash
-git clone https://github.com/VaishaleeSingh03/Vision-Forge-.git
-cd Vision-Forge-
+git clone https://github.com/VaishaleeSingh/Vision-Forge.git
+cd Vision-Forge
 npm install
 cp .env.example .env   # copy env template, then add your API keys and MongoDB URI
 pip install -r requirements-ml.txt
