@@ -162,6 +162,28 @@ Optional env: `HUGGINGFACE_API_KEY` (RAG), `FAL_API_KEY` (images), `PYTHON_PATH=
 
 ---
 
+## Deploy
+
+### Full flow (recommended) — Railway or Render
+
+Includes **ML Training Lab** (Python sklearn). Uses the repo `Dockerfile` (Node + Python).
+
+1. Connect [VaishaleeSingh/Vision-Forge](https://github.com/VaishaleeSingh/Vision-Forge) on [Railway](https://railway.app) or [Render](https://render.com).
+2. Deploy with **Docker** (auto-detects `Dockerfile`).
+3. Add environment variables from `.env.example` (same as local).
+4. Set `NEXTAUTH_URL` to your live URL (e.g. `https://your-app.up.railway.app`).
+5. MongoDB Atlas → Network Access → allow `0.0.0.0/0`.
+
+### GenAI only — Netlify
+
+Uses `netlify.toml`. Works for agents, RAG, studio, auth. **ML Train button will not work** (no Python on Netlify).
+
+1. [Netlify](https://app.netlify.com) → Import from Git → this repo.
+2. Add env vars; set `NEXTAUTH_URL` to your `*.netlify.app` URL after first deploy.
+3. Redeploy after updating `NEXTAUTH_URL`.
+
+---
+
 ## License
 
 Private portfolio project. See repository owner for usage terms.

@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+build
+.git
+.gitignore
+data
+.env
+.env.*
+!.env.example
+coverage
+*.log
+.DS_Store
+README.md
+terminals
