@@ -6,18 +6,17 @@ RUN apt-get update \
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+# Match local npm 11 lockfile; npm 10 in node:20 image breaks `npm ci` on this project.
+RUN npm install -g npm@11
 
-# Render injects NODE_ENV=production at build time; Next.js build needs devDependencies.
+COPY . .
+
 ENV NODE_ENV=development
 ENV NPM_CONFIG_PRODUCTION=false
 
-RUN npm ci --no-audit --no-fund
+RUN npm install --no-audit --no-fund
 
-COPY requirements-ml.txt ./
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements-ml.txt
-
-COPY . .
 
 RUN npm run build
 
